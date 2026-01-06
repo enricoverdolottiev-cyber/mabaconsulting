@@ -1,0 +1,191 @@
+{
+  "nav": {
+    "services": "Servizi",
+    "aboutUs": "Chi Siamo",
+    "projects": "Progetti",
+    "contactUs": "Contatti",
+    "contact": "Contatti",
+    "team": "Team"
+  },
+  "hero": {
+    "title": "Consulenza su Misura per Sistemi e Componenti Aerospaziali",
+    "subtitle": "Soluzioni d'eccellenza per il settore Aeronautico e Spaziale. Partner di soggetti pubblici e privati per servizi e componenti personalizzati nei mercati civile, militare e dual-use.",
+    "ctaPrimary": "Start Project",
+    "ctaSecondary": "Contattaci"
+  },
+  "features": {
+    "title": "Il Nostro Metodo",
+    "subtitle": "Metodologia basata sulla comprensione profonda delle esigenze del cliente. Lavoriamo a stretto contatto per sviluppare soluzioni esclusive e prodotti unici.",
+    "subtitleBold": "",
+    "subtitleEnd": "",
+    "managementConsulting": {
+      "tag": "",
+      "title": "Consulenza Ad Hoc",
+      "description": "Analisi obiettivi > Studio caratteristiche > Strategia > Risultato unico. Processi personalizzati per ogni progetto."
+    },
+    "technologyConsulting": {
+      "tag": "",
+      "title": "Supporto Tecnico & Ingegneristico",
+      "description": "Progettazione, FMECA, analisi rischio, budget, specifiche tecniche. Competenze ingegneristiche avanzate."
+    },
+    "marketIntelligence": {
+      "tag": "",
+      "title": "Gestione & Organizzazione",
+      "description": "Procedure qualità, pianificazione, contratti, supporto ai programmi. Eccellenza operativa garantita."
+    },
+    "executiveSummits": {
+      "tag": "",
+      "title": "Marketing & Business Development",
+      "description": "Bandi internazionali, business plan, analisi di mercato, partnership. Crescita strategica mirata."
+    },
+    "innovationLabs": {
+      "tag": "",
+      "title": "",
+      "description": ""
+    },
+    "securityCompliance": {
+      "tag": "",
+      "title": "",
+      "description": ""
+    }
+  },
+  "stats": {
+    "title": "Esperienza e Competenza",
+    "subtitle": "Risultati che testimoniano l'impegno per l'eccellenza tecnica",
+    "uptime": {
+      "label": "UPTIME_PERCENTAGE",
+      "description": "Infrastruttura affidabile"
+    },
+    "projects": {
+      "label": "PROJECTS_DELIVERED",
+      "description": "Consegnati con successo"
+    },
+    "countries": {
+      "label": "GLOBAL_PRESENCE",
+      "description": "Presenza globale"
+    },
+    "experts": {
+      "label": "EXPERT_TEAM_SIZE",
+      "description": "Team di livello mondiale"
+    }
+  },
+  "about": {
+    "title": "Eccellenza nell'Ingegneria Aerospaziale",
+    "subtitle": "Con oltre 35 anni di esperienza nel settore aerospaziale, l'Amministratore Unico guida un team di professionisti selezionati su misura per ogni commessa.",
+    "description": "L'approccio si basa sulla selezione mirata dello staff in base alle competenze richieste da ogni progetto. Lavoriamo a stretto contatto con i clienti per comprendere le loro specifiche necessità e sviluppare soluzioni esclusive che trasformano la complessità tecnica in valore concreto.",
+    "stats": {
+      "years": {
+        "value": "35+",
+        "label": "Anni di Esperienza"
+      },
+      "projects": {
+        "value": "50+",
+        "label": "Progetti Conclusi"
+      },
+      "clients": {
+        "value": "100+",
+        "label": "Clienti Soddisfatti"
+      }
+    }
+  },
+  "services": {
+    "title": "I Nostri Servizi",
+    "subtitle": "Competenze specialistiche per progetti aerospaziali complessi",
+    "strategicConsulting": {
+      "title": "Consulenza Ad Hoc",
+      "description": "Analisi, strategia e realizzazione di soluzioni esclusive per il raggiungimento degli obiettivi aziendali."
+    },
+    "digitalTransformation": {
+      "title": "Supporto Tecnico & Ingegneristico",
+      "description": "Progettazione, Analisi di Rischio (FMECA), Studi di fattibilità e Qualifica."
+    },
+    "processEngineering": {
+      "title": "Gestione & Organizzazione",
+      "description": "Procedure di Qualità, Project Management e Supporto Contrattuale."
+    },
+    "businessDevelopment": {
+      "title": "Business Development",
+      "description": "Bandi Internazionali, Business Plan e Sviluppo di Partnership."
+    }
+  },
+  "team": {
+    "title": "Il Team",
+    "subtitle": "Professionisti con competenze specialistiche nel settore aerospaziale",
+    "mauro": {
+      "name": "Ing. Mauro Balduccini",
+      "role": "Founder & Senior Consultant",
+      "description": "Oltre 35 anni di esperienza specialistica nel settore Aerospazio e Difesa. Competenza tecnica, gestione contrattuale e approccio sartoriale (Ad Hoc) per soluzioni su misura."
+    },
+    "livia": {
+      "name": "Livia Balduccini",
+      "role": "Responsabile Marketing",
+      "description": "Gestione della strategia di comunicazione, marketing e posizionamento del brand. Supporto allo sviluppo del business e coordinamento delle attività promozionali."
+    }
+  },
+  "metodo": {
+    "title": "Processo che Adottiamo",
+    "subtitle": "Metodo Ad Hoc dell'Ing. Balduccini: un approccio strutturato e personalizzato per ogni progetto",
+    "cliente": "CLIENTE",
+    "step1": "ANALISI ESIGENZA",
+    "step2": "PROGETTO INTERVENTO",
+    "step3": "OFFERTA AL CLIENTE",
+    "step4": "SVILUPPO ATTIVITÀ",
+    "step5": "FEEDBACK ATTIVITÀ"
+  },
+  "contact": {
+    "title": "Contattaci",
+    "subtitle": "Siamo qui per aiutarti a trasformare la tua visione in realtà",
+    "form": {
+      "name": "Nome",
+      "email": "Email",
+      "message": "Messaggio",
+      "submit": "Invia",
+      "sending": "Invio in corso...",
+      "success": "Messaggio inviato con successo!",
+      "error": "Si è verificato un errore. Riprova."
+    },
+    "info": {
+      "email": "Email",
+      "location": "Sede",
+      "copyEmail": "Copia email",
+      "emailCopied": "Email copiata!",
+      "emailValue": "info@mabaconsulting.com",
+      "locationValue": "Milano, Italia"
+    }
+  },
+  "footer": {
+    "tagline": "Consulenza aerospaziale di eccellenza. Trasformiamo la complessità tecnica in valore concreto.",
+    "company": "Azienda",
+    "services": "Servizi",
+    "resources": "Risorse",
+    "stayUpdated": "Resta Aggiornato",
+    "newsletterDescription": "Ricevi le ultime informazioni e aggiornamenti dal settore",
+    "emailPlaceholder": "Inserisci la tua email",
+    "subscribe": "Iscriviti",
+    "rights": "Tutti i diritti riservati.",
+    "privacy": "Privacy",
+    "terms": "Termini di Servizio",
+    "cookies": "Cookie Policy",
+    "links": {
+      "company": {
+        "aboutUs": "Chi Siamo",
+        "careers": "Carriere",
+        "contact": "Contatti",
+        "news": "Notizie"
+      },
+      "services": {
+        "managementConsulting": "Consulenza Manageriale",
+        "technologyConsulting": "Consulenza Tecnologica",
+        "marketIntelligence": "Intelligence di Mercato",
+        "executiveSummits": "Executive Summits"
+      },
+      "resources": {
+        "blog": "Blog",
+        "caseStudies": "Casi Studio",
+        "whitepapers": "White Paper",
+        "webinars": "Webinar"
+      }
+    }
+  }
+}
+

@@ -1,0 +1,191 @@
+{
+  "nav": {
+    "services": "Services",
+    "aboutUs": "About Us",
+    "projects": "Projects",
+    "contactUs": "Contact",
+    "contact": "Contact",
+    "team": "Team"
+  },
+  "hero": {
+    "title": "Tailored consulting dedicated to Systems, Components and Services in the Aeronautical and Space sector",
+    "subtitle": "Technical, managerial and strategic support designed for your specific needs. We transform complexity into unique value.",
+    "ctaPrimary": "Start Project",
+    "ctaSecondary": "Contact Us"
+  },
+  "features": {
+    "title": "Our Method",
+    "subtitle": "Methodology based on deep understanding of client needs. We work closely to develop exclusive solutions and unique products.",
+    "subtitleBold": "",
+    "subtitleEnd": "",
+    "managementConsulting": {
+      "tag": "",
+      "title": "Ad Hoc Consulting",
+      "description": "Objective analysis > Feature study > Strategy > Unique result. Customized processes for each project."
+    },
+    "technologyConsulting": {
+      "tag": "",
+      "title": "Technical & Engineering Support",
+      "description": "Design, FMECA, risk analysis, budget, technical specifications. Advanced engineering expertise."
+    },
+    "marketIntelligence": {
+      "tag": "",
+      "title": "Management & Organization",
+      "description": "Quality procedures, planning, contracts, program support. Guaranteed operational excellence."
+    },
+    "executiveSummits": {
+      "tag": "",
+      "title": "Marketing & Business Development",
+      "description": "International tenders, business plans, market analysis, partnerships. Targeted strategic growth."
+    },
+    "innovationLabs": {
+      "tag": "",
+      "title": "",
+      "description": ""
+    },
+    "securityCompliance": {
+      "tag": "",
+      "title": "",
+      "description": ""
+    }
+  },
+  "stats": {
+    "title": "Experience and Competence",
+    "subtitle": "Results that demonstrate commitment to technical excellence",
+    "uptime": {
+      "label": "UPTIME_PERCENTAGE",
+      "description": "Reliable infrastructure"
+    },
+    "projects": {
+      "label": "PROJECTS_DELIVERED",
+      "description": "Successfully delivered"
+    },
+    "countries": {
+      "label": "GLOBAL_PRESENCE",
+      "description": "Global presence"
+    },
+    "experts": {
+      "label": "EXPERT_TEAM_SIZE",
+      "description": "World-class team"
+    }
+  },
+  "about": {
+    "title": "Excellence in Aerospace Engineering",
+    "subtitle": "With over 35 years of experience in the aerospace sector, the Sole Administrator leads a team of professionals selected on a case-by-case basis for each assignment.",
+    "description": "The approach is based on targeted staff selection according to the skills required by each project. We work closely with clients to understand their specific needs and develop exclusive solutions that transform technical complexity into concrete value.",
+    "stats": {
+      "years": {
+        "value": "35+",
+        "label": "Years of Experience"
+      },
+      "projects": {
+        "value": "50+",
+        "label": "Projects Completed"
+      },
+      "clients": {
+        "value": "100+",
+        "label": "Satisfied Clients"
+      }
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Specialist expertise for complex aerospace projects",
+    "strategicConsulting": {
+      "title": "Ad Hoc Consulting",
+      "description": "Analysis, strategy and implementation of exclusive solutions to achieve business objectives."
+    },
+    "digitalTransformation": {
+      "title": "Technical & Engineering Support",
+      "description": "Design, Risk Analysis (FMECA), Feasibility Studies and Qualification."
+    },
+    "processEngineering": {
+      "title": "Management & Organization",
+      "description": "Quality Procedures, Project Management and Contractual Support."
+    },
+    "businessDevelopment": {
+      "title": "Business Development",
+      "description": "International Tenders, Business Plans and Partnership Development."
+    }
+  },
+  "team": {
+    "title": "The Team",
+    "subtitle": "Professionals with specialist expertise in the aerospace sector",
+    "mauro": {
+      "name": "Eng. Mauro Balduccini",
+      "role": "Founder & Senior Consultant",
+      "description": "Over 35 years of specialist experience in the Aerospace and Defense sector. Technical expertise, contract management and tailored approach (Ad Hoc) for custom solutions."
+    },
+    "livia": {
+      "name": "Livia Balduccini",
+      "role": "Marketing Manager",
+      "description": "Management of communication strategy, marketing and brand positioning. Support for business development and coordination of promotional activities."
+    }
+  },
+  "metodo": {
+    "title": "Process We Adopt",
+    "subtitle": "Eng. Balduccini's Ad Hoc Method: a structured and personalized approach for each project",
+    "cliente": "CLIENT",
+    "step1": "NEEDS ANALYSIS",
+    "step2": "INTERVENTION PROJECT",
+    "step3": "CLIENT OFFER",
+    "step4": "ACTIVITY DEVELOPMENT",
+    "step5": "ACTIVITY FEEDBACK"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We're here to help you turn your vision into reality",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "error": "An error occurred. Please try again."
+    },
+    "info": {
+      "email": "Email",
+      "location": "Location",
+      "copyEmail": "Copy email",
+      "emailCopied": "Email copied!",
+      "emailValue": "info@mabaconsulting.com",
+      "locationValue": "Milan, Italy"
+    }
+  },
+  "footer": {
+    "tagline": "Aerospace consulting excellence. We transform technical complexity into concrete value.",
+    "company": "Company",
+    "services": "Services",
+    "resources": "Resources",
+    "stayUpdated": "Stay Updated",
+    "newsletterDescription": "Get the latest insights and updates from the sector",
+    "emailPlaceholder": "Enter your email",
+    "subscribe": "Subscribe",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Policy",
+    "links": {
+      "company": {
+        "aboutUs": "About Us",
+        "careers": "Careers",
+        "contact": "Contact",
+        "news": "News"
+      },
+      "services": {
+        "managementConsulting": "Management Consulting",
+        "technologyConsulting": "Technology Consulting",
+        "marketIntelligence": "Market Intelligence",
+        "executiveSummits": "Executive Summits"
+      },
+      "resources": {
+        "blog": "Blog",
+        "caseStudies": "Case Studies",
+        "whitepapers": "Whitepapers",
+        "webinars": "Webinars"
+      }
+    }
+  }
+}
+
