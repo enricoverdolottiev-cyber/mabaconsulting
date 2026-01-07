@@ -2,6 +2,7 @@
   "nav": {
     "services": "Servizi",
     "aboutUs": "Chi Siamo",
+    "method": "Metodo",
     "projects": "Progetti",
     "contactUs": "Contatti",
     "contact": "Contatti",
@@ -15,7 +16,7 @@
   },
   "features": {
     "title": "Il Nostro Metodo",
-    "subtitle": "Metodologia basata sulla comprensione profonda delle esigenze del cliente. Lavoriamo a stretto contatto per sviluppare soluzioni esclusive e prodotti unici.",
+    "subtitle": "Il nostro approccio è sartoriale: lavoriamo a stretto contatto con partner pubblici e privati per trasformare la complessità tecnica in soluzioni esclusive e valore concreto, operando con successo sia in ambito civile che nella difesa.",
     "subtitleBold": "",
     "subtitleEnd": "",
     "managementConsulting": {
@@ -71,8 +72,8 @@
   },
   "about": {
     "title": "Eccellenza nell'Ingegneria Aerospaziale",
-    "subtitle": "Con oltre 35 anni di esperienza nel settore aerospaziale, l'Amministratore Unico guida un team di professionisti selezionati su misura per ogni commessa.",
-    "description": "L'approccio si basa sulla selezione mirata dello staff in base alle competenze richieste da ogni progetto. Lavoriamo a stretto contatto con i clienti per comprendere le loro specifiche necessità e sviluppare soluzioni esclusive che trasformano la complessità tecnica in valore concreto.",
+    "subtitle": "Con oltre 35 anni di esperienza nel settore aerospaziale, MaBaconsulting è una PMI specializzata che coniuga visione strategica e agilità operativa. Sotto la guida di una leadership consolidata, coordiniamo team d'eccellenza selezionati su misura per ogni sfida, garantendo competenze verticali su sistemi, componenti e servizi.",
+    "description": "",
     "stats": {
       "years": {
         "value": "35+",

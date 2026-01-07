@@ -23,7 +23,7 @@ export default function Navbar() {
 
   // Intersection Observer for active section
   useEffect(() => {
-    const sections = ['about', 'services', 'team', 'contact']
+    const sections = ['about', 'method', 'services', 'team', 'contact']
     const observers: IntersectionObserver[] = []
 
     sections.forEach((sectionId) => {
@@ -53,6 +53,7 @@ export default function Navbar() {
 
   const navItems = [
     { key: 'aboutUs', hasDropdown: false, href: '#about' },
+    { key: 'method', hasDropdown: false, href: '#method' },
     { key: 'services', hasDropdown: false, href: '#services' },
     { key: 'team', hasDropdown: false, href: '#team' },
     { key: 'contact', hasDropdown: false, href: '#contact' },

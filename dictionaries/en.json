@@ -2,6 +2,7 @@
   "nav": {
     "services": "Services",
     "aboutUs": "About Us",
+    "method": "Method",
     "projects": "Projects",
     "contactUs": "Contact",
     "contact": "Contact",
@@ -15,7 +16,7 @@
   },
   "features": {
     "title": "Our Method",
-    "subtitle": "Methodology based on deep understanding of client needs. We work closely to develop exclusive solutions and unique products.",
+    "subtitle": "Our approach is tailored: we work closely with public and private partners to transform technical complexity into exclusive solutions and tangible value, operating successfully in both civil and defense sectors.",
     "subtitleBold": "",
     "subtitleEnd": "",
     "managementConsulting": {
@@ -71,8 +72,8 @@
   },
   "about": {
     "title": "Excellence in Aerospace Engineering",
-    "subtitle": "With over 35 years of experience in the aerospace sector, the Sole Administrator leads a team of professionals selected on a case-by-case basis for each assignment.",
-    "description": "The approach is based on targeted staff selection according to the skills required by each project. We work closely with clients to understand their specific needs and develop exclusive solutions that transform technical complexity into concrete value.",
+    "subtitle": "With over 35 years of experience in the aerospace sector, MaBaconsulting is a specialized SME that combines strategic vision and operational agility. Under the guidance of established leadership, we coordinate teams of excellence selected to meet each challenge, ensuring vertical expertise in systems, components, and services.",
+    "description": "",
     "stats": {
       "years": {
         "value": "35+",
