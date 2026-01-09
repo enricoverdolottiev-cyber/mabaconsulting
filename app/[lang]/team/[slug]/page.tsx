@@ -37,11 +37,11 @@ export default async function TeamDetailPage({
   }
 
   const dictionary = getDictionary(lang)
-  const teamMembers = dictionary.team_members as Record<string, {
-    bio_title: string
-    bio_content: string
-    cv_button_label: string
-    cv_file_path: string
+  const teamMembers = dictionary.team_members as unknown as Record<string, {
+    bio_title?: string
+    bio_content?: string
+    cv_button_label?: string
+    cv_file_path?: string
   }>
   
   // Verifica se esiste la struttura dettagliata per Mauro o Livia nella sezione team
@@ -138,18 +138,19 @@ export default async function TeamDetailPage({
       }
     : undefined
   
-  // Trova il membro del team corrispondente allo slug
-  let memberData = teamMembers[slug]
+  // Trova il membro del team corrispondente allo slug (escludendo backToTeam)
+  let memberData = teamMembers[slug] && slug !== 'backToTeam' ? teamMembers[slug] : undefined
   
   // Se non trovato, prova a tradurre lo slug
   if (!memberData) {
     const mappedSlug = teamSlugMap[slug]?.[lang]
-    if (mappedSlug) {
+    if (mappedSlug && mappedSlug !== 'backToTeam') {
       memberData = teamMembers[mappedSlug]
     }
   }
   
-  if (!memberData) {
+  // Verifica che memberData abbia la struttura corretta
+  if (!memberData || !memberData.bio_title || !memberData.cv_button_label) {
     notFound()
   }
 
@@ -171,10 +172,10 @@ export default async function TeamDetailPage({
         lang={lang}
         slug={slug}
         memberInfo={memberInfo}
-        memberData={memberData}
+        memberData={memberData as any}
         teamMauro={teamMauro}
         teamLivia={teamLivia}
-        backToTeam={dictionary.team_members.backToTeam}
+        backToTeam={dictionary.team_members.backToTeam as string}
       />
       <Footer />
     </I18nProvider>
