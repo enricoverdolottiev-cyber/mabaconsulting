@@ -79,8 +79,8 @@
     }
   },
   "about": {
-    "title": "Excellence in Aerospace Engineering",
-    "subtitle": "With over 35 years of experience in the aerospace sector, MaBaconsulting is a specialized SME that combines strategic vision and operational agility. Under the guidance of established leadership, we coordinate teams of excellence selected to meet each challenge, ensuring vertical expertise in systems, components, and services.",
+    "title": "Excellence in <span class=\"gradient-text\">Aerospace</span> Engineering",
+    "subtitle": "With over 35 years of experience in the aerospace sector, MaBa Consulting is a specialized SME that combines strategic vision and operational agility. Under the guidance of established leadership, we coordinate teams of excellence selected to meet each challenge, ensuring vertical expertise in systems, components, and services.",
     "description": "",
     "stats": {
       "years": {
@@ -107,7 +107,7 @@
         "shortDescription": "Customized and tailored solutions specifically designed to meet your unique needs.",
         "content": {
           "subtitle": "An Ad Hoc approach for each client",
-          "description": "MaBaconsulting operates with a tailored methodology that adapts to each client's specific needs. We do not offer pre-packaged solutions, but rather develop customized interventions that combine in-depth analysis, targeted strategy, and concrete implementation to achieve unique objectives.",
+          "description": "MaBa Consulting operates with a tailored methodology that adapts to each client's specific needs. We do not offer pre-packaged solutions, but rather develop customized interventions that combine in-depth analysis, targeted strategy, and concrete implementation to achieve unique objectives.",
           "features": [
             "Analysis of client objectives",
             "Study of client characteristics",
@@ -420,9 +420,11 @@
   },
   "contacts": {
     "title": "Contacts",
-    "companyName": "MaBaconsulting S.r.l. a Socio Unico",
+    "companyName": "MaBa Consulting S.r.l. a Socio Unico",
     "legalSeat": "Registered Office",
     "legalSeatAddress": "Via Giulia, 16 - 00186 Rome",
+    "vatInfo": "VAT and Fiscal Code 13362851001",
+    "registryInfo": "Registered at the Rome Chamber of Commerce nr. 1441561",
     "admin": "CEO",
     "adminName": "Eng. Mauro Balduccini",
     "adminMobile": "+39 335 7431423",
@@ -446,6 +448,7 @@
     "emailPlaceholder": "Enter your email",
     "subscribe": "Subscribe",
     "rights": "All rights reserved.",
+    "legalInfo": "MaBa Consulting S.r.l. a Socio Unico | P.IVA 13362851001",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "cookies": "Cookie Policy",
@@ -471,8 +474,8 @@
     }
   },
   "seo": {
-    "siteName": "MaBaconsulting",
-    "defaultTitle": "MaBaconsulting | Aerospace & Defense Consulting",
+    "siteName": "MaBa Consulting",
+    "defaultTitle": "MaBa Consulting | Aerospace & Defense Consulting",
     "defaultDescription": "Specialist consulting in the Aerospace & Defense sector. Strategic engineering services, digital transformation and business development for companies in the sector. Over 35 years of experience.",
     "keywords": "aerospace consulting, aerospace engineering, defense, aerospace systems, aerospace components, technical consulting, program management, aerospace business development"
   }

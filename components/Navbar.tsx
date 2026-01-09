@@ -3,16 +3,30 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { ChevronDown } from 'lucide-react'
+import { usePathname } from 'next/navigation'
+import Link from 'next/link'
 import { useI18n } from '@/contexts/I18nContext'
 import LanguageSwitcher from './LanguageSwitcher'
 import Logo from './Logo'
 
 export default function Navbar() {
-  const { dictionary } = useI18n()
+  const { dictionary, locale } = useI18n()
+  const pathname = usePathname()
   const [scrolled, setScrolled] = useState(false)
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null)
   const [activeSection, setActiveSection] = useState<string>('')
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
+  // Helper function to get the correct href based on current location
+  const getHref = (sectionId: string): string => {
+    const homePath = `/${locale}`
+    // If we're on the home page, use anchor links
+    if (pathname === homePath) {
+      return `#${sectionId}`
+    }
+    // Otherwise, link to home with anchor
+    return `${homePath}#${sectionId}`
+  }
 
   useEffect(() => {
     const handleScroll = () => {
@@ -22,8 +36,15 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  // Intersection Observer for active section
+  // Intersection Observer for active section (only on home page)
   useEffect(() => {
+    const homePath = `/${locale}`
+    // Only set up Intersection Observer if we're on the home page
+    if (pathname !== homePath) {
+      setActiveSection('')
+      return
+    }
+
     const sections = ['about', 'method', 'services', 'team', 'contact']
     const observers: IntersectionObserver[] = []
 
@@ -50,7 +71,7 @@ export default function Navbar() {
     return () => {
       observers.forEach((observer) => observer.disconnect())
     }
-  }, [])
+  }, [pathname, locale])
 
   const navItems = [
     { key: 'aboutUs', hasDropdown: false, href: '#about' },
@@ -61,16 +82,54 @@ export default function Navbar() {
   ]
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
-    e.preventDefault()
-    const element = document.querySelector(href)
-    if (element) {
-      const offsetTop = element.getBoundingClientRect().top + window.pageYOffset - 96
-      window.scrollTo({
-        top: offsetTop,
-        behavior: 'smooth',
-      })
+    const homePath = `/${locale}`
+    
+    // If href is an anchor link and we're on home page, handle smooth scroll
+    if (href.startsWith('#') && pathname === homePath) {
+      e.preventDefault()
+      const element = document.querySelector(href)
+      if (element) {
+        const offsetTop = element.getBoundingClientRect().top + window.pageYOffset - 96
+        window.scrollTo({
+          top: offsetTop,
+          behavior: 'smooth',
+        })
+      }
+      return
+    }
+    
+    // If href contains a path (e.g., /it#about), it means we're on a subpage
+    // Let the browser navigate normally, then handle scroll on the home page
+    if (href.includes('#')) {
+      const [path, hash] = href.split('#')
+      // Only prevent default if we're navigating to home with anchor
+      if (path === homePath) {
+        // Store hash in sessionStorage to scroll after navigation
+        sessionStorage.setItem('scrollTo', hash)
+      }
     }
   }
+
+  // Handle scroll after navigation from subpage to home
+  useEffect(() => {
+    if (pathname === `/${locale}`) {
+      const scrollTo = sessionStorage.getItem('scrollTo')
+      if (scrollTo) {
+        sessionStorage.removeItem('scrollTo')
+        // Wait a bit for the page to render
+        setTimeout(() => {
+          const element = document.getElementById(scrollTo)
+          if (element) {
+            const offsetTop = element.getBoundingClientRect().top + window.pageYOffset - 96
+            window.scrollTo({
+              top: offsetTop,
+              behavior: 'smooth',
+            })
+          }
+        }, 100)
+      }
+    }
+  }, [pathname, locale])
 
   return (
     <motion.nav
@@ -79,24 +138,23 @@ export default function Navbar() {
       transition={{ duration: 0.5 }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? 'bg-white/5 backdrop-blur-md border-b border-white/10'
+          ? 'md:bg-white/5 md:backdrop-blur-md bg-background/95 backdrop-blur-md border-b border-white/10'
           : 'bg-transparent'
       }`}
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-[1fr_auto_1fr] items-center h-20 sm:h-24 gap-4">
           {/* Logo - Colonna sinistra */}
-          <motion.a
-            href="#"
-            onClick={(e) => {
-              e.preventDefault()
-              window.scrollTo({ top: 0, behavior: 'smooth' })
-            }}
-            whileHover={{ scale: 1.05 }}
-            className="cursor-pointer justify-self-start z-10"
+          <Link
+            href={`/${locale}`}
+            className="justify-self-start z-10"
           >
-            <Logo className="text-2xl sm:text-3xl font-bold tracking-tighter" />
-          </motion.a>
+            <motion.div
+              whileHover={{ scale: 1.05 }}
+            >
+              <Logo className="text-2xl sm:text-3xl font-bold tracking-tighter" />
+            </motion.div>
+          </Link>
 
           {/* Navigation Links - Colonna centrale (centrato rispetto alla viewport) */}
           <div className="hidden lg:flex items-center gap-6 xl:gap-8 justify-self-center">
@@ -104,6 +162,8 @@ export default function Navbar() {
               const name = dictionary.nav[item.key as keyof typeof dictionary.nav]
               const sectionId = item.href.replace('#', '')
               const isActive = activeSection === sectionId
+              
+              const href = getHref(sectionId)
               
               return (
                 <div
@@ -113,8 +173,8 @@ export default function Navbar() {
                   onMouseLeave={() => setActiveDropdown(null)}
                 >
                   <a
-                    href={item.href}
-                    onClick={(e) => handleNavClick(e, item.href)}
+                    href={href}
+                    onClick={(e) => handleNavClick(e, href)}
                     className={`flex items-center gap-1 text-sm font-bold transition-colors duration-200 relative group ${
                       isActive ? 'text-white' : 'text-white/90 hover:text-white'
                     }`}
@@ -185,20 +245,21 @@ export default function Navbar() {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -20 }}
-          className="absolute top-full left-0 right-0 bg-white/5 backdrop-blur-md border-t border-white/10 mt-2"
+          className="absolute top-full left-0 right-0 bg-background border-t border-white/10 mt-2 z-[60]"
         >
           <div className="container mx-auto px-6 py-4 space-y-4">
             {navItems.map((item) => {
               const name = dictionary.nav[item.key as keyof typeof dictionary.nav]
               const sectionId = item.href.replace('#', '')
               const isActive = activeSection === sectionId
+              const href = getHref(sectionId)
 
               return (
                 <a
                   key={item.key}
-                  href={item.href}
+                  href={href}
                   onClick={(e) => {
-                    handleNavClick(e, item.href)
+                    handleNavClick(e, href)
                     setMobileMenuOpen(false)
                   }}
                   className={`block text-base font-bold transition-colors duration-200 ${

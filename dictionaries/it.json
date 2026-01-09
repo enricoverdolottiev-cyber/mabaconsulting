@@ -79,8 +79,8 @@
     }
   },
   "about": {
-    "title": "Eccellenza nell'Ingegneria Aerospaziale",
-    "subtitle": "Con oltre 35 anni di esperienza nel settore aerospaziale, MaBaconsulting è una PMI specializzata che coniuga visione strategica e agilità operativa. Sotto la guida di una leadership consolidata, coordiniamo team d'eccellenza selezionati su misura per ogni sfida, garantendo competenze verticali su sistemi, componenti e servizi.",
+    "title": "Eccellenza nell'Ingegneria <span class=\"gradient-text\">Aerospaziale</span>",
+    "subtitle": "Con oltre 35 anni di esperienza nel settore aerospaziale, MaBa Consulting è una PMI specializzata che coniuga visione strategica e agilità operativa. Sotto la guida di una leadership consolidata, coordiniamo team d'eccellenza selezionati su misura per ogni sfida, garantendo competenze verticali su sistemi, componenti e servizi.",
     "description": "",
     "stats": {
       "years": {
@@ -107,7 +107,7 @@
         "shortDescription": "Soluzioni personalizzate e sartoriali progettate specificamente per le tue esigenze uniche.",
         "content": {
           "subtitle": "Un approccio Ad Hoc per ogni cliente",
-          "description": "MaBaconsulting opera con un metodo sartoriale che si adatta alle specifiche esigenze di ogni cliente. Non offriamo soluzioni preconfezionate, ma sviluppiamo interventi su misura che combinano analisi approfondita, strategia mirata e realizzazione concreta per raggiungere obiettivi unici.",
+          "description": "MaBa Consulting opera con un metodo sartoriale che si adatta alle specifiche esigenze di ogni cliente. Non offriamo soluzioni preconfezionate, ma sviluppiamo interventi su misura che combinano analisi approfondita, strategia mirata e realizzazione concreta per raggiungere obiettivi unici.",
           "features": [
             "analisi obiettivi del cliente",
             "studio delle caratteristiche del cliente",
@@ -420,9 +420,11 @@
   },
   "contacts": {
     "title": "Contatti",
-    "companyName": "MaBaconsulting S.r.l. a Socio Unico",
+    "companyName": "MaBa Consulting S.r.l. a Socio Unico",
     "legalSeat": "Sede Legale",
     "legalSeatAddress": "Via Giulia, 16 - 00186 Roma",
+    "vatInfo": "P.IVA e Cod.Fisc. 13362851001",
+    "registryInfo": "Iscritta al registro delle imprese di Roma nr. 1441561",
     "admin": "Amministratore Unico",
     "adminName": "Ing. Mauro Balduccini",
     "adminMobile": "+39 335 7431423",
@@ -446,6 +448,7 @@
     "emailPlaceholder": "Inserisci la tua email",
     "subscribe": "Iscriviti",
     "rights": "Tutti i diritti riservati.",
+    "legalInfo": "MaBa Consulting S.r.l. a Socio Unico | P.IVA 13362851001",
     "privacy": "Privacy",
     "terms": "Termini di Servizio",
     "cookies": "Cookie Policy",
@@ -471,8 +474,8 @@
     }
   },
   "seo": {
-    "siteName": "MaBaconsulting",
-    "defaultTitle": "MaBaconsulting | Consulenza Aerospazio e Difesa",
+    "siteName": "MaBa Consulting",
+    "defaultTitle": "MaBa Consulting | Consulenza Aerospazio e Difesa",
     "defaultDescription": "Consulenza specialistica nel settore Aerospazio e Difesa. Servizi di ingegneria strategica, trasformazione digitale e sviluppo business per aziende del settore. Oltre 35 anni di esperienza.",
     "keywords": "consulenza aerospaziale, ingegneria aerospaziale, difesa, sistemi aerospaziali, componenti aerospaziali, consulenza tecnica, program management, business development aerospaziale"
   }

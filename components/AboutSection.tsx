@@ -18,9 +18,10 @@ export default function AboutSection() {
             transition={{ duration: 0.6 }}
             className="text-center"
           >
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6 tracking-tighter font-sans">
-              {dictionary.about.title}
-            </h2>
+            <h2 
+              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6 tracking-tighter font-sans"
+              dangerouslySetInnerHTML={{ __html: dictionary.about.title }} 
+            />
             <p className="text-lg sm:text-xl text-text-secondary leading-relaxed font-sans px-2">
               {dictionary.about.subtitle}
             </p>

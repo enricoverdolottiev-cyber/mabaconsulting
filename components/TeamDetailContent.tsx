@@ -156,15 +156,6 @@ export default function TeamDetailContent({
                 </p>
               </div>
 
-              {/* Download CV Button */}
-              <div className="flex justify-center mb-8">
-                <DownloadButton
-                  slug={slug}
-                  lang={lang}
-                  label={dictionary.team.downloadButton}
-                />
-              </div>
-
               {/* Personal Data */}
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div>
@@ -299,6 +290,21 @@ export default function TeamDetailContent({
                     ))}
                   </div>
                 </motion.div>
+
+                {/* Download CV Button - After all content */}
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.6, delay: 0.5 }}
+                  className="flex justify-center mt-12"
+                >
+                  <DownloadButton
+                    slug={slug}
+                    lang={lang}
+                    label={dictionary.team.downloadButton}
+                  />
+                </motion.div>
             </div>
           </div>
         </section>
@@ -342,15 +348,6 @@ export default function TeamDetailContent({
                 <p className="text-xl md:text-2xl text-blue-300 mb-6 font-mono font-medium">
                   {teamMauro.role}
                 </p>
-              </div>
-
-              {/* Download CV Button */}
-              <div className="flex justify-center mb-8">
-                <DownloadButton
-                  slug={slug}
-                  lang={lang}
-                  label={dictionary.team.downloadButton}
-                />
               </div>
 
               {/* Personal Data */}
@@ -523,6 +520,21 @@ export default function TeamDetailContent({
                     </div>
                   </motion.div>
                 )}
+
+                {/* Download CV Button - After all content */}
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.6, delay: 0.5 }}
+                  className="flex justify-center mt-12"
+                >
+                  <DownloadButton
+                    slug={slug}
+                    lang={lang}
+                    label={dictionary.team.downloadButton}
+                  />
+                </motion.div>
             </div>
           </div>
         </section>

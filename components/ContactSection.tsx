@@ -64,9 +64,19 @@ export default function ContactSection() {
         >
             {/* Company Name */}
             <div className="rounded-2xl p-6 sm:p-8 bg-[rgba(255,255,255,0.03)] border border-white/10 backdrop-blur-sm">
-              <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary-cyan mb-6 font-sans text-left">
+              <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary-cyan mb-4 font-sans text-left">
                 {contacts.companyName}
               </h3>
+              
+              {/* Legal Info */}
+              <div className="mb-6 space-y-1">
+                <p className="text-sm text-text-secondary font-mono text-left">
+                  {contacts.vatInfo}
+                </p>
+                <p className="text-sm text-text-secondary font-mono text-left">
+                  {contacts.registryInfo}
+                </p>
+              </div>
               
               {/* Legal Seat */}
               <div className="flex items-start gap-4 mb-6">
