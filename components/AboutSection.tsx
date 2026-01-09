@@ -7,7 +7,7 @@ export default function AboutSection() {
   const { dictionary } = useI18n()
 
   return (
-    <section id="about" className="relative py-32 px-6 lg:px-8 border-t border-white/10 scroll-mt-20">
+    <section id="about" className="relative py-20 sm:py-24 md:py-32 px-4 sm:px-6 lg:px-8 border-t border-white/10 scroll-mt-20">
       <div className="container mx-auto">
         <div className="max-w-4xl mx-auto">
           {/* Text Content */}
@@ -18,10 +18,10 @@ export default function AboutSection() {
             transition={{ duration: 0.6 }}
             className="text-center"
           >
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 tracking-tighter font-sans">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6 tracking-tighter font-sans">
               {dictionary.about.title}
             </h2>
-            <p className="text-xl text-text-secondary leading-relaxed font-sans">
+            <p className="text-lg sm:text-xl text-text-secondary leading-relaxed font-sans px-2">
               {dictionary.about.subtitle}
             </p>
 

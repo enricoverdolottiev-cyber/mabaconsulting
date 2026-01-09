@@ -14,6 +14,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -21,6 +22,8 @@ body {
   color: #FFFFFF;
   font-family: var(--font-geist-sans);
   overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
 }
 
 @layer utilities {

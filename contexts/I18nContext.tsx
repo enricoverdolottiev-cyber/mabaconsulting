@@ -36,12 +36,37 @@ export function I18nProvider({
     }
   }, [initialLocale])
 
+  // Mapping degli ID servizi tra italiano e inglese
+  const serviceIdMap: Record<string, Record<Locale, string>> = {
+    'supporto-su-misura': { it: 'supporto-su-misura', en: 'tailored-support' },
+    'tailored-support': { it: 'supporto-su-misura', en: 'tailored-support' },
+    'supporto-tecnico': { it: 'supporto-tecnico', en: 'technical-support' },
+    'technical-support': { it: 'supporto-tecnico', en: 'technical-support' },
+    'supporto-gestionale-organizzativo': { it: 'supporto-gestionale-organizzativo', en: 'management-organizational-support' },
+    'management-organizational-support': { it: 'supporto-gestionale-organizzativo', en: 'management-organizational-support' },
+    'supporto-commerciale-marketing': { it: 'supporto-commerciale-marketing', en: 'commercial-marketing-support' },
+    'commercial-marketing-support': { it: 'supporto-commerciale-marketing', en: 'commercial-marketing-support' },
+    'supporto-formativo': { it: 'supporto-formativo', en: 'training-support' },
+    'training-support': { it: 'supporto-formativo', en: 'training-support' },
+  }
+
   const setLocale = (newLocale: Locale) => {
     setLocaleState(newLocale)
     localStorage.setItem('locale', newLocale)
     // Navigate to new locale route
     if (typeof window !== 'undefined') {
-      window.location.href = `/${newLocale}${window.location.pathname.slice(3)}`
+      const currentPath = window.location.pathname
+      const pathParts = currentPath.split('/').filter(Boolean)
+      
+      // Se siamo su una pagina servizio (/[lang]/services/[id])
+      if (pathParts.length >= 3 && pathParts[1] === 'services' && pathParts[2]) {
+        const currentServiceId = pathParts[2]
+        const translatedServiceId = serviceIdMap[currentServiceId]?.[newLocale] || currentServiceId
+        window.location.href = `/${newLocale}/services/${translatedServiceId}`
+      } else {
+        // Per altre pagine, mantieni il percorso originale
+        window.location.href = `/${newLocale}${currentPath.slice(3)}`
+      }
     }
   }
 

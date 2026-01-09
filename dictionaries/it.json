@@ -54,18 +54,26 @@
     "title": "Esperienza e Competenza",
     "subtitle": "Risultati che testimoniano l'impegno per l'eccellenza tecnica",
     "uptime": {
+      "value": 99.9,
+      "suffix": "%",
       "label": "UPTIME_PERCENTAGE",
       "description": "Infrastruttura affidabile"
     },
     "projects": {
+      "value": 500,
+      "suffix": "+",
       "label": "PROJECTS_DELIVERED",
       "description": "Consegnati con successo"
     },
     "countries": {
+      "value": 50,
+      "suffix": "+",
       "label": "GLOBAL_PRESENCE",
       "description": "Presenza globale"
     },
     "experts": {
+      "value": 1000,
+      "suffix": "+",
       "label": "EXPERT_TEAM_SIZE",
       "description": "Team di livello mondiale"
     }
@@ -92,36 +100,292 @@
   "services": {
     "title": "I Nostri Servizi",
     "subtitle": "Competenze specialistiche per progetti aerospaziali complessi",
-    "strategicConsulting": {
-      "title": "Consulenza Ad Hoc",
-      "description": "Analisi, strategia e realizzazione di soluzioni esclusive per il raggiungimento degli obiettivi aziendali."
-    },
-    "digitalTransformation": {
-      "title": "Supporto Tecnico & Ingegneristico",
-      "description": "Progettazione, Analisi di Rischio (FMECA), Studi di fattibilità e Qualifica."
-    },
-    "processEngineering": {
-      "title": "Gestione & Organizzazione",
-      "description": "Procedure di Qualità, Project Management e Supporto Contrattuale."
-    },
-    "businessDevelopment": {
-      "title": "Business Development",
-      "description": "Bandi Internazionali, Business Plan e Sviluppo di Partnership."
+    "list": [
+      {
+        "id": "supporto-su-misura",
+        "title": "Supporto su misura",
+        "shortDescription": "Soluzioni personalizzate e sartoriali progettate specificamente per le tue esigenze uniche.",
+        "content": {
+          "subtitle": "Un approccio Ad Hoc per ogni cliente",
+          "description": "MaBaconsulting opera con un metodo sartoriale che si adatta alle specifiche esigenze di ogni cliente. Non offriamo soluzioni preconfezionate, ma sviluppiamo interventi su misura che combinano analisi approfondita, strategia mirata e realizzazione concreta per raggiungere obiettivi unici.",
+          "features": [
+            "analisi obiettivi del cliente",
+            "studio delle caratteristiche del cliente",
+            "analisi delle possibili attività da svolgere per supportare il cliente",
+            "realizzazione di un prodotto esclusivo ed unico da mettere a disposizione dell'azienda cliente per il raggiungimento degli obiettivi prefissati"
+          ]
+        }
+      },
+      {
+        "id": "supporto-tecnico",
+        "title": "Supporto Tecnico",
+        "shortDescription": "Competenze ingegneristiche avanzate per progettazione, industrializzazione e supply chain.",
+        "content": {
+          "subtitle": "Eccellenza tecnica e ingegneristica",
+          "description": "Offriamo supporto tecnico specializzato nel settore aerospaziale, dalla progettazione all'industrializzazione, passando per l'analisi di rischio e la qualifica. Le nostre competenze coprono l'intero ciclo di vita del prodotto, garantendo standard elevati e conformità normativa.",
+          "features": [
+            "Sviluppo di attività di progettazione",
+            "Sviluppo metodologie di analisi e calcolo",
+            "Sviluppo e gestione dei Budget e dei margini",
+            "Analisi di rischio",
+            "Analisi di affidabilità e di guasto (e FMECA)",
+            "Analisi di costo",
+            "Analisi di prestazione",
+            "Elaborazione piani di sviluppo e qualifica",
+            "Emissione specifiche di sistema ed apparato",
+            "Emissione specifiche di prova",
+            "Supporto per l'emissione di documentazione tecnica",
+            "Supporto tecnico in ambito design reviews",
+            "Studi di fattibilità per nuovi prodotti e servizi",
+            "Follow up tecnico per conto del cliente"
+          ]
+        }
+      },
+      {
+        "id": "supporto-gestionale-organizzativo",
+        "title": "Supporto Gestionale ed organizzativo",
+        "shortDescription": "Program Management, ottimizzazione organizzativa e procedure di qualità per l'eccellenza operativa.",
+        "content": {
+          "subtitle": "Organizzazione e gestione operativa",
+          "description": "Supportiamo le aziende nella definizione e implementazione di processi gestionali efficienti, dalla programmazione strategica alla gestione della qualità. Il nostro approccio garantisce organizzazione ottimale, conformità normativa e miglioramento continuo.",
+          "features": [
+            "Sviluppo procedure di gestione e di qualità",
+            "Sviluppo di metodologie di valutazione efficienza",
+            "Analisi organizzative",
+            "Supporto alla gestione dei programmi",
+            "Supporto allo sviluppo dei contratti",
+            "Supporto e gestione della pianificazione",
+            "Organizzazione di design reviews",
+            "Progetto di team speciali per il raggiungimento di obiettivi",
+            "Follow up programmatico dei sotto-contrattori",
+            "Attività di revisione indipendente",
+            "Supporto nella gestione dell'interfaccia esterna",
+            "Partecipazione a comitati/boards per conto del cliente",
+            "Supporto nella gestione degli acquisti",
+            "Supporto nella gestione della documentazione"
+          ]
+        }
+      },
+      {
+        "id": "supporto-commerciale-marketing",
+        "title": "Supporto Commerciale e Marketing",
+        "shortDescription": "Analisi di mercato, business development e strategie di vendita per la crescita aziendale.",
+        "content": {
+          "subtitle": "Sviluppo commerciale e strategico",
+          "description": "Accompagniamo le aziende nella crescita commerciale attraverso analisi di mercato approfondite, sviluppo di partnership strategiche e accesso a bandi internazionali. Sviluppiamo business plan mirati e strategie di marketing per posizionare efficacemente l'azienda nei mercati civile, militare e dual-use.",
+          "features": [
+            "Monitoraggio emissione bandi e richieste di offerta in ambito nazionale ed internazionale",
+            "Sviluppo offerte in ambito competitivo internazionale",
+            "Sviluppo di piani strategici",
+            "Sviluppo di Marketing Plan e supporto per la relativa implementazione",
+            "Definizione e gestione del budget marketing e comunicazione",
+            "Gestione e coordinamento delle attività di comunicazione pubblicitaria",
+            "Supporto nel rapporto con i clienti",
+            "Gestione e sviluppo di accordi di Partnership Commerciale",
+            "Sviluppo di Business Plan",
+            "Sviluppo di modelli matematici di business",
+            "Analisi di make or buy",
+            "Analisi di spin-off e spin-in delle tecnologie",
+            "Analisi di mercato",
+            "Implementazione di progetti di loyalty",
+            "Presenza ad eventuali occasioni esterne per conto del cliente",
+            "Supporto per interfaccia con enti ed agenzie nazionali"
+          ]
+        }
+      },
+      {
+        "id": "supporto-formativo",
+        "title": "Supporto Formativo",
+        "shortDescription": "Training specializzato e sviluppo competenze per team tecnici e manageriali nel settore aerospaziale.",
+        "content": {
+          "subtitle": "Sviluppo competenze e formazione",
+          "description": "Offriamo attività formative specializzate per sviluppare competenze tecniche, gestionali e normative nel settore aerospaziale. I nostri programmi di training sono progettati per aggiornare i team sulle ultime tecnologie, normative e best practices del settore.",
+          "features": [
+            "Sviluppo di piani di formazione mirati su specifiche necessità del cliente",
+            "Supporto per erogazione di attività di formazione incluse in contratti acquisiti",
+            "Analisi di necessità di formazione",
+            "Sviluppo ed erogazione di formazione di ingresso in azienda",
+            "Sviluppo piano di diffusione interna della visione",
+            "Sviluppo ed erogazione di formazione di base per team dedicati ad obiettivi specifici",
+            "Monitoraggio e valutazione di opportunità di formazione esterna",
+            "Identificazione opzioni di recupero dei costi per attività di formazione"
+          ]
+        }
+      }
+    ],
+    "detail": {
+      "backToServices": "Torna ai Servizi",
+      "detailsTitle": "Dettagli Offerta",
+      "ctaTitle": "Vuoi saperne di più?",
+      "ctaDescription": "Contattaci per discutere come possiamo supportare la tua azienda",
+      "ctaButton": "Contattaci"
     }
   },
   "team": {
     "title": "Il Team",
     "subtitle": "Professionisti con competenze specialistiche nel settore aerospaziale",
+    "downloadButton": "Scarica CV (PDF)",
     "mauro": {
       "name": "Ing. Mauro Balduccini",
-      "role": "Founder & Senior Consultant",
-      "description": "Oltre 35 anni di esperienza specialistica nel settore Aerospazio e Difesa. Competenza tecnica, gestione contrattuale e approccio sartoriale (Ad Hoc) per soluzioni su misura."
+      "role": "Fondatore e Amministratore Unico",
+      "description": "Oltre 35 anni di esperienza specialistica nel settore Aerospazio e Difesa. Competenza tecnica, gestione contrattuale e approccio sartoriale (Ad Hoc) per soluzioni su misura.",
+      "personal_data": {
+        "birth": "Roma, 21 Marzo 1953",
+        "family": "Coniugato, due figli e due nipoti",
+        "education": "Laurea in Ingegneria Nucleare (110/110) presso La Sapienza, Roma (1977)",
+        "membership": "Iscritto all'Ordine degli Ingegneri di Roma e Milano"
+      },
+      "cv_pdf_label": "Scarica CV Completo PDF",
+      "sections": {
+        "experience": "Esperienza Professionale",
+        "academic": "Attività Didattica & Universitaria",
+        "highlights": "Incarichi & Onorificenze"
+      },
+      "full_timeline": [
+        {
+          "period": "2025",
+          "title": "Riconoscimenti e Programmi Strategici",
+          "points": [
+            "Assegnazione del prestigioso Premio Luigi Broglio 2025.",
+            "Completamento con successo del programma SIMONA (Sistema Italiano di Messa in Orbita tramite Nave - fasi 1+2+3).",
+            "Sviluppo proposta per fasi 2+3 del programma PNRM MIUS (Motore Ibrido Ultimo Stadio).",
+            "Sviluppo proposte SUBSATCOM (PNS) e DEVO (Dispositivo per Estensione Vita Operativa).",
+            "Ricerca sull'utilizzo della Super-Cavitazione e formazione team dedicati."
+          ]
+        },
+        {
+          "period": "2024",
+          "title": "Navigazione e Comunicazioni Underwater",
+          "points": [
+            "Sviluppo programma SICURO (Sistema Italiano di Comunicazione Underwater con Ricevitore Ottico) con la Scuola di Ingegneria Aerospaziale.",
+            "Supporto a Qascom per bando ASI su sistemi di navigazione per trasporto autonomo e automatico."
+          ]
+        },
+        {
+          "period": "2022 - 2023",
+          "title": "Propulsione Avanzata e Contratti ASI",
+          "points": [
+            "Consulenza su propulsione ramjet per organizzazioni extra-europee.",
+            "Acquisizione programma PNRM 21 MIUS (Motore Italiano per Upper Stage).",
+            "Studi di concetti innovativi di sistemi spaziali per Bando ASI FEB 23.",
+            "Follow-up su contratti di cooperazione internazionale per motori airbreathing supersonici."
+          ]
+        },
+        {
+          "period": "2008 - 2015",
+          "title": "AVIO - Responsabile Ufficio Ricerche e Sviluppi",
+          "points": [
+            "Sviluppo piani strategici per ambiti EU, ESA, EDA, MIUR e Difesa Italiana.",
+            "Gestione progetti su detriti spaziali, moduli di deorbiting e piccoli lanciatori a basso costo.",
+            "Sviluppo sistemi di iniezione orbitale a singolo stadio (Gun Launch To Orbit) e motori air-breathing.",
+            "Analisi di 'spin-off' per tecnologie spaziali in altri settori industriali."
+          ]
+        },
+        {
+          "period": "1982 - 2008",
+          "title": "Esperienza Industriale Senior (ELV, FIAT AVIO, Selenia)",
+          "points": [
+            "ELV: Responsabile tecnico e programmatico del contratto VEGA per ESA fino alla System Design Review.",
+            "FIAT AVIO/BPD: Reclutamento e gestione del team di sistema per lo sviluppo del lanciatore VEGA.",
+            "SELENIA SPAZIO: Responsabile piattaforma satelliti ITALSAT-2 (civile) e SICRAL-1 (militare).",
+            "BPD: Progetto e realizzazione sistema di controllo stadio IRIS (Missione Space Shuttle STS)."
+          ]
+        }
+      ],
+      "academic_extended": {
+        "title": "Attività Didattica e Pubblicazioni",
+        "items": [
+          "Corso di progettazione sistemi propulsione satellitari presso la Scuola di Ingegneria Aerospaziale (2006-2010).",
+          "Lezioni annuali ai Master di Progettazione Satelliti e Lanciatori dal 2006.",
+          "Co-Autore del libro: 'Space Program Management, Methods and Tools' (Springer).",
+          "Organizzazione del 1° Workshop sullo Spazio per l'Ufficio Innovazione della Marina Militare."
+        ]
+      },
+      "highlights": [
+        "Premio Luigi Broglio 2025",
+        "Advisor Marina Militare e Ministero Trasporti",
+        "Membro Eurospace Technical Advisory Board",
+        "Chairman Ariane 2010 Key Point per CNES"
+      ]
     },
     "livia": {
-      "name": "Livia Balduccini",
+      "name": "Dott.ssa Livia Balduccini",
       "role": "Responsabile Marketing",
-      "description": "Gestione della strategia di comunicazione, marketing e posizionamento del brand. Supporto allo sviluppo del business e coordinamento delle attività promozionali."
+      "description": "Gestione della strategia di comunicazione, marketing e posizionamento del brand. Supporto allo sviluppo del business e coordinamento delle attività promozionali.",
+      "personal_data": {
+        "education": "Laurea in Statistica per la gestione aziendale - La Sapienza (2004)",
+        "thesis": "Tesi: Lo start-up nel settore degli Outlet; il caso McArthurGlen",
+        "languages": "Italiano (Madrelingua), Inglese (Ottimo - Diplomi OISE), Francese (Scolastico)"
+      },
+      "skills": [
+        "Pianificazione Strategica & Marketing Mix",
+        "Gestione Budget e Comunicazione Pubblicitaria",
+        "Sviluppo Partnership Commerciali & Loyalty",
+        "Analisi Statistica e Performance Evaluation",
+        "Organizzazione Eventi e PR Retail"
+      ],
+      "experience_timeline": [
+        {
+          "period": "2015 - Oggi",
+          "title": "MaBa Consulting S.r.l.",
+          "role": "Responsabile Marketing",
+          "text": "Pianificazione progetti di marketing per portafoglio prodotti nazionale ed estero, gestione budget e coordinamento attività di comunicazione."
+        },
+        {
+          "period": "2012 - 2015",
+          "title": "Centro Commerciale I GIGLI (Larry Smith)",
+          "role": "Vice Direttore",
+          "text": "Gestione operativa e strategica di uno dei centri commerciali più importanti d'Italia. Lancio Gigli Pass e Gigli Gift Card."
+        },
+        {
+          "period": "2009 - 2011",
+          "title": "Soratte Outlet Shopping",
+          "role": "Marketing Manager",
+          "text": "Definizione criticità, analisi concorrenza e gestione integrale del budget di lancio e della campagna pubblicitaria."
+        },
+        {
+          "period": "2005 - 2009",
+          "title": "McArthurGlen Ltd",
+          "role": "Marketing Executive & Coordinator",
+          "text": "Percorso di crescita internazionale: coordinamento marketing per le aperture di Barberino e Noventa di Piave (Veneto Designer Outlet)."
+        }
+      ],
+      "projects": [
+        {
+          "title": "Lancio Gigli Pass & Gift Card",
+          "description": "Analisi della concorrenza, definizione media plan on/off-line e monitoraggio trend di vendita."
+        },
+        {
+          "title": "Opening Veneto Designer Outlet",
+          "description": "Gestione campagna pre-opening, posizionamento nel mercato turistico e organizzazione eventi di lancio."
+        },
+        {
+          "title": "Apertura Outlet di Barberino",
+          "description": "Coordinamento campagna di lancio e sviluppo accordi di partnership territoriali."
+        }
+      ],
+      "sections": {
+        "experience": "Esperienza Professionale",
+        "skills": "Competenze",
+        "projects": "Progetti Caratterizzanti"
+      },
+      "cv_pdf_label": "Scarica Profilo Dott.ssa Livia Balduccini"
     }
+  },
+  "team_members": {
+    "mauro-balduccini": {
+      "bio_title": "Biografia",
+      "bio_content": "Inserire qui il testo descrittivo completo per Ing. Mauro Balduccini. Questo contenuto verrà aggiornato in seguito con informazioni dettagliate sulla sua esperienza, competenze e background nel settore aerospaziale.",
+      "cv_button_label": "Scarica Curriculum",
+      "cv_file_path": "/docs/cv-mauro-it.pdf"
+    },
+    "livia-balduccini": {
+      "bio_title": "Biografia",
+      "bio_content": "Inserire qui il testo descrittivo completo per Dott.ssa Livia Balduccini. Questo contenuto verrà aggiornato in seguito con informazioni dettagliate sulla sua esperienza, competenze e background nel settore marketing e comunicazione.",
+      "cv_button_label": "Scarica Company Profile",
+      "cv_file_path": "/docs/cv-livia-it.pdf"
+    },
+    "backToTeam": "Torna al Team"
   },
   "metodo": {
     "title": "Processo che Adottiamo",
@@ -153,6 +417,24 @@
       "emailValue": "info@mabaconsulting.com",
       "locationValue": "Milano, Italia"
     }
+  },
+  "contacts": {
+    "title": "Contatti",
+    "companyName": "MaBaconsulting S.r.l. a Socio Unico",
+    "legalSeat": "Sede Legale",
+    "legalSeatAddress": "Via Giulia, 16 - 00186 Roma",
+    "admin": "Amministratore Unico",
+    "adminName": "Ing. Mauro Balduccini",
+    "adminMobile": "+39 335 7431423",
+    "adminMail": "mbalduccini@mabaconsulting.it",
+    "marketing": "Responsabile Marketing",
+    "marketingName": "Dott.ssa Livia Balduccini",
+    "marketingMobile": "+39 3494026614",
+    "marketingMail": "livia.balduccini@gmail.com",
+    "mobile": "Mobile",
+    "mail": "Mail",
+    "generalMail": "contacts@mabaconsulting.it",
+    "emailCopied": "Email copiata!"
   },
   "footer": {
     "tagline": "Consulenza aerospaziale di eccellenza. Trasformiamo la complessità tecnica in valore concreto.",
@@ -187,6 +469,12 @@
         "webinars": "Webinar"
       }
     }
+  },
+  "seo": {
+    "siteName": "MaBaconsulting",
+    "defaultTitle": "MaBaconsulting | Consulenza Aerospazio e Difesa",
+    "defaultDescription": "Consulenza specialistica nel settore Aerospazio e Difesa. Servizi di ingegneria strategica, trasformazione digitale e sviluppo business per aziende del settore. Oltre 35 anni di esperienza.",
+    "keywords": "consulenza aerospaziale, ingegneria aerospaziale, difesa, sistemi aerospaziali, componenti aerospaziali, consulenza tecnica, program management, business development aerospaziale"
   }
 }
 

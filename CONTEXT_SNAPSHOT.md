@@ -67,16 +67,16 @@ mabaconsulting1/
 │   └── globals.css               # Global styles, Tailwind directives, utilities
 │
 ├── components/                   # React components (Client Components)
-│   ├── Navbar.tsx                # Fixed navigation with scroll detection
+│   ├── Navbar.tsx                # Fixed navigation with scroll detection, grid layout (logo left, menu centered)
 │   ├── Hero.tsx                  # Hero section with animated background
 │   ├── AboutSection.tsx          # About section (#about)
 │   ├── ServicesSection.tsx       # Services grid (#services)
 │   ├── TeamSection.tsx           # Team members (#team)
 │   ├── ContactSection.tsx        # Contact info (#contact)
-│   ├── FeatureGrid.tsx           # Feature cards grid
-│   ├── FeatureCard.tsx           # Reusable feature card component
+│   ├── FeatureGrid.tsx           # Interactive SVG flowchart "Metodo Ad Hoc" (methodology visualization)
+│   ├── FeatureCard.tsx           # Reusable feature card component (deprecated/unused)
 │   ├── StatsSection.tsx          # Animated statistics counter
-│   ├── Footer.tsx                # Site footer with links
+│   ├── Footer.tsx                # Site footer: simplified layout (Brand + Company links only), glassmorphism
 │   └── LanguageSwitcher.tsx      # Language dropdown selector
 │
 ├── contexts/                     # React Context providers
@@ -177,7 +177,8 @@ mabaconsulting1/
   services: { title, subtitle, strategicConsulting, ... },
   team: { title, subtitle, mauro, livia },
   contact: { title, subtitle, form, info },
-  footer: { tagline, links, ... }
+  footer: { tagline, links, ... },
+  metodo: { title, subtitle, cliente, step1, step2, step3, step4, step5 } // For SVG flowchart
 }
 ```
 
@@ -205,15 +206,15 @@ mabaconsulting1/
 | Feature | Component | Status | Notes |
 |---------|-----------|--------|-------|
 | **Multilingual Support** | `I18nContext`, `LanguageSwitcher` | ✅ Complete | Italian (default) & English |
-| **Responsive Navigation** | `Navbar` | ✅ Complete | Desktop + mobile menu, scroll detection |
+| **Responsive Navigation** | `Navbar` | ✅ Complete | Desktop + mobile menu, scroll detection. Grid layout: logo left, menu centered, language switcher right |
 | **Hero Section** | `Hero` | ✅ Complete | Animated background, particles, gradient text |
 | **About Section** | `AboutSection` | ✅ Complete | Stats display (35+ years, 50+ projects, 100+ clients) |
 | **Services Section** | `ServicesSection` | ✅ Complete | 4 service cards with icons |
 | **Team Section** | `TeamSection` | ✅ Complete | 2 team members (Mauro, Livia) |
 | **Contact Section** | `ContactSection` | ✅ Complete | Email copy, location display |
-| **Feature Grid** | `FeatureGrid` | ✅ Complete | 4 feature cards (methodology) |
+| **Feature Grid** | `FeatureGrid` | ✅ Complete | Interactive SVG flowchart "Metodo Ad Hoc" with animated dashed arrows, 5 process boxes, client bar, geometric precision |
 | **Stats Section** | `StatsSection` | ✅ Complete | Animated counters (99.9%, 500+, 50+, 1000+) |
-| **Footer** | `Footer` | ✅ Complete | Links, tagline, legal links |
+| **Footer** | `Footer` | ✅ Complete | Simplified layout: Brand column (2/3 width) + Company links (Chi Siamo, Contatti). Glassmorphism applied. Removed: Services, Resources sections; Careers, News links |
 | **Smooth Scrolling** | `Navbar` | ✅ Complete | Anchor links with offset |
 | **Active Section Detection** | `Navbar` | ✅ Complete | Intersection Observer API |
 | **Animations** | All components | ✅ Complete | Framer Motion throughout |
@@ -225,8 +226,7 @@ mabaconsulting1/
 | Feature | Component | Status | Notes |
 |---------|-----------|--------|-------|
 | **Contact Form** | `ContactSection` | ❌ Missing | Only displays info, no form submission |
-| **Footer Links** | `Footer` | ⚠️ Placeholder | All links point to `#` (not implemented) |
-| **Newsletter** | `Footer` | ⚠️ Placeholder | UI exists in dictionary, not rendered |
+| **Footer Links** | `Footer` | ⚠️ Placeholder | All links point to `#` (not implemented). Only Company links remain (About Us, Contact) |
 | **Dropdown Menus** | `Navbar` | ⚠️ Placeholder | Dropdown structure exists but no content |
 | **Stats Values** | `StatsSection` | ⚠️ Hardcoded | Values (99.9%, 500+, etc.) are hardcoded, not from dictionary |
 
@@ -239,8 +239,8 @@ mabaconsulting1/
 | **Analytics** | Global | Low | No Google Analytics or similar |
 | **Error Pages** | `app/` | Low | No custom 404/500 pages |
 | **Loading States** | Global | Low | No loading.tsx files |
-| **Blog/News Section** | New route | Low | Referenced in footer but not implemented |
-| **Case Studies** | New route | Low | Referenced in footer but not implemented |
+| **Blog/News Section** | New route | Low | Removed from footer (previously referenced) |
+| **Case Studies** | New route | Low | Removed from footer (previously referenced) |
 | **Privacy Policy** | New route | Low | Link exists but no page |
 | **Terms of Service** | New route | Low | Link exists but no page |
 | **Cookie Policy** | New route | Low | Link exists but no page |
@@ -253,6 +253,9 @@ mabaconsulting1/
 4. **No Error Boundaries:** No React error boundaries implemented
 5. **No Loading States:** No loading.tsx or Suspense boundaries for async operations
 6. **Type Safety:** Some dictionary access uses `as` assertions (could be improved with better typing)
+7. **FeatureCard Component:** `FeatureCard.tsx` exists but is not currently used (FeatureGrid now uses SVG flowchart)
+8. **Footer Simplified:** Footer sections "Services" and "Resources" removed, along with "Careers" and "News" links. Layout changed from 5-column to 3-column grid
+9. **Navbar Layout:** Updated to use CSS Grid (`grid-cols-[1fr_auto_1fr]`) for centered menu navigation, with logo on left and language switcher on right
 
 ---
 
@@ -314,8 +317,9 @@ export default async function Page({ params }: { params: Promise<{ lang: Locale 
 - **Colors:** Dark theme (black background `#000000`)
 - **Primary:** Blue (`#0070FF`) to Cyan (`#00D9FF`) gradient
 - **Text:** White primary, gray secondary (`#A1A1AA`)
-- **Effects:** Glassmorphism (backdrop blur, transparency)
+- **Effects:** Glassmorphism (`bg-white/5`, `backdrop-blur-md`) applied to Navbar (on scroll) and Footer
 - **Shadows:** Custom glow effects (`glow-blue`, `glow-cyan`, `glow-purple`)
+- **Layout:** CSS Grid used for Navbar (3-column: logo left, menu center, switcher right) and Footer (3-column: brand 2/3, company 1/3)
 
 ### Code Organization
 
@@ -354,8 +358,10 @@ export default async function Page({ params }: { params: Promise<{ lang: Locale 
 | `contexts/I18nContext.tsx` | i18n provider | Understanding state management |
 | `lib/i18n.ts` | i18n utilities | How translations work |
 | `dictionaries/it.json` | Italian translations | Content structure |
-| `components/Navbar.tsx` | Navigation | Complex component with scroll detection |
+| `components/Navbar.tsx` | Navigation | Complex component with scroll detection, CSS Grid layout for centered menu |
+| `components/Logo.tsx` | Brand logo | Italian flag integration, geometric precision (0.5px overlap) |
 | `components/Hero.tsx` | Hero section | Animation patterns, background effects |
+| `components/FeatureGrid.tsx` | Interactive SVG flowchart | SVG animations, geometric precision, dashed arrow animations, methodology visualization |
 | `app/globals.css` | Global styles | Custom utilities, design system |
 | `tailwind.config.ts` | Tailwind config | Custom theme, colors, fonts |
 
@@ -377,7 +383,7 @@ app/[lang]/page.tsx
   │     └── contexts/I18nContext.tsx
   ├── components/AboutSection.tsx
   ├── components/FeatureGrid.tsx
-  │     └── components/FeatureCard.tsx
+  │     └── contexts/I18nContext.tsx (for metodo dictionary keys)
   ├── components/ServicesSection.tsx
   ├── components/TeamSection.tsx
   ├── components/ContactSection.tsx
@@ -424,6 +430,7 @@ npm run lint   # Runs ESLint (Next.js default)
 - **Client Components:** Used only where necessary (animations, interactivity)
 - **Image Optimization:** Not currently used (no images in project)
 - **Font Optimization:** Google Fonts loaded via `next/font/google` (optimized)
+- **SVG Animations:** CSS animations (`@keyframes`) used for dashed arrow effects in FeatureGrid flowchart (lightweight, GPU-accelerated)
 
 ### Browser Support
 
@@ -464,10 +471,28 @@ npm run lint   # Runs ESLint (Next.js default)
 4. Add navigation item in `Navbar.tsx`
 5. Add translations to dictionaries
 
+**Modify FeatureGrid flowchart:**
+1. Edit SVG structure in `components/FeatureGrid.tsx`
+2. Update `dictionary.metodo.*` keys in `dictionaries/*.json` for text content
+3. Adjust coordinates for geometric precision (viewBox: 1400x600)
+4. Modify CSS animations in `<style>` tag within SVG `<defs>` for arrow effects
+
 **Modify styling:**
 1. Use Tailwind utilities (preferred)
 2. Add custom utility to `app/globals.css` if needed
 3. Update `tailwind.config.ts` for theme changes
+
+**Modify Navbar layout:**
+1. Grid structure: `grid-cols-[1fr_auto_1fr]` for 3-column layout
+2. Logo: `justify-self-start` (left column)
+3. Menu: `justify-self-center` (center column)
+4. Language switcher: `justify-self-end` (right column)
+
+**Modify Footer structure:**
+1. Current layout: 3-column grid (`lg:grid-cols-3`)
+2. Brand column spans 2 columns (`lg:col-span-2`)
+3. Company column spans 1 column
+4. Removed sections: Services, Resources (no longer in codebase)
 
 **Update content:**
 1. Edit `dictionaries/it.json` and `dictionaries/en.json`

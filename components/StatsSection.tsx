@@ -52,63 +52,47 @@ function Counter({ value, suffix = '', prefix = '', duration = 2 }: CounterProps
 export default function StatsSection() {
   const { dictionary } = useI18n()
 
-  const stats = [
-    { 
-      value: 99.9, 
-      suffix: '%', 
-      key: 'uptime' as const
-    },
-    { 
-      value: 500, 
-      suffix: '+', 
-      key: 'projects' as const
-    },
-    { 
-      value: 50, 
-      suffix: '+', 
-      key: 'countries' as const
-    },
-    { 
-      value: 1000, 
-      suffix: '+', 
-      key: 'experts' as const
-    },
+  const statKeys: Array<'uptime' | 'projects' | 'countries' | 'experts'> = [
+    'uptime',
+    'projects',
+    'countries',
+    'experts',
   ]
 
   return (
-    <section className="relative py-32 px-6 lg:px-8 border-t border-white/10">
+    <section className="relative py-20 sm:py-24 md:py-32 px-4 sm:px-6 lg:px-8 border-t border-white/10">
       <div className="container mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-center mb-16"
+          className="text-center mb-12 sm:mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 tracking-tighter font-sans">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-3 sm:mb-4 tracking-tighter font-sans">
             {dictionary.stats.title.split(' ').slice(0, -1).join(' ')}{' '}
             <span className="gradient-text">{dictionary.stats.title.split(' ').slice(-1)[0]}</span>
           </h2>
-          <p className="text-xl text-text-secondary max-w-2xl mx-auto font-sans">
+          <p className="text-lg sm:text-xl text-text-secondary max-w-2xl mx-auto font-sans px-2">
             {dictionary.stats.subtitle}
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {stats.map((stat, index) => {
-            const statData = dictionary.stats[stat.key]
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+          {statKeys.map((key, index) => {
+            const statData = dictionary.stats[key]
             return (
               <motion.div
-                key={stat.key}
+                key={key}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="text-center"
+                className="text-center px-2"
               >
-              <Counter value={stat.value} suffix={stat.suffix} />
-              <h3 className="text-xs font-mono text-primary/70 uppercase tracking-wider mt-4 mb-2">{statData.label}</h3>
-              <p className="text-text-secondary font-sans text-sm">{statData.description}</p>
+              <Counter value={statData.value} suffix={statData.suffix} />
+              <h3 className="text-xs font-mono text-primary/70 uppercase tracking-wider mt-3 sm:mt-4 mb-2">{statData.label}</h3>
+              <p className="text-text-secondary font-sans text-sm sm:text-base">{statData.description}</p>
               </motion.div>
             )
           })}

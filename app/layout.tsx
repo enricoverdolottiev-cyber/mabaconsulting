@@ -16,8 +16,17 @@ const robotoMono = Roboto_Mono({
   weight: ['400', '500', '600', '700'],
 })
 
+// Metadata di default - verranno sovrascritti dal layout [lang]
 export const metadata: Metadata = {
-  title: 'MaBaconsulting | Consulenza Aerospazio e Difesa',
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_SITE_URL || 
+    process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 
+    'https://mabaconsulting.com'
+  ),
+  title: {
+    default: 'MaBaconsulting | Consulenza Aerospazio e Difesa',
+    template: '%s | MaBaconsulting',
+  },
   description: 'Consulenza specialistica nel settore Aerospazio e Difesa. Servizi di ingegneria strategica, trasformazione digitale e sviluppo business per aziende del settore.',
 }
 

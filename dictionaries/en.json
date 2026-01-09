@@ -9,7 +9,7 @@
     "team": "Team"
   },
   "hero": {
-    "title": "Tailored consulting dedicated to Systems, Components and Services in the Aeronautical and Space sector",
+    "title": "Tailored Consulting for Aerospace Systems, Components and Services",
     "subtitle": "Technical, managerial and strategic support designed for your specific needs. We transform complexity into unique value.",
     "ctaPrimary": "Start Project",
     "ctaSecondary": "Contact Us"
@@ -54,18 +54,26 @@
     "title": "Experience and Competence",
     "subtitle": "Results that demonstrate commitment to technical excellence",
     "uptime": {
+      "value": 99.9,
+      "suffix": "%",
       "label": "UPTIME_PERCENTAGE",
       "description": "Reliable infrastructure"
     },
     "projects": {
+      "value": 500,
+      "suffix": "+",
       "label": "PROJECTS_DELIVERED",
       "description": "Successfully delivered"
     },
     "countries": {
+      "value": 50,
+      "suffix": "+",
       "label": "GLOBAL_PRESENCE",
       "description": "Global presence"
     },
     "experts": {
+      "value": 1000,
+      "suffix": "+",
       "label": "EXPERT_TEAM_SIZE",
       "description": "World-class team"
     }
@@ -92,36 +100,292 @@
   "services": {
     "title": "Our Services",
     "subtitle": "Specialist expertise for complex aerospace projects",
-    "strategicConsulting": {
-      "title": "Ad Hoc Consulting",
-      "description": "Analysis, strategy and implementation of exclusive solutions to achieve business objectives."
-    },
-    "digitalTransformation": {
-      "title": "Technical & Engineering Support",
-      "description": "Design, Risk Analysis (FMECA), Feasibility Studies and Qualification."
-    },
-    "processEngineering": {
-      "title": "Management & Organization",
-      "description": "Quality Procedures, Project Management and Contractual Support."
-    },
-    "businessDevelopment": {
-      "title": "Business Development",
-      "description": "International Tenders, Business Plans and Partnership Development."
+    "list": [
+      {
+        "id": "tailored-support",
+        "title": "Tailored Support",
+        "shortDescription": "Customized and tailored solutions specifically designed to meet your unique needs.",
+        "content": {
+          "subtitle": "An Ad Hoc approach for each client",
+          "description": "MaBaconsulting operates with a tailored methodology that adapts to each client's specific needs. We do not offer pre-packaged solutions, but rather develop customized interventions that combine in-depth analysis, targeted strategy, and concrete implementation to achieve unique objectives.",
+          "features": [
+            "Analysis of client objectives",
+            "Study of client characteristics",
+            "Analysis of potential activities to support the client",
+            "Development of an exclusive and unique solution to be made available to the client company for achieving set objectives"
+          ]
+        }
+      },
+      {
+        "id": "technical-support",
+        "title": "Technical Support",
+        "shortDescription": "Advanced engineering expertise for design, industrialization, and supply chain management.",
+        "content": {
+          "subtitle": "Technical and engineering excellence",
+          "description": "We provide specialized technical support in the aerospace sector, from design through industrialization, including risk analysis and qualification. Our expertise covers the entire product lifecycle, ensuring high standards and regulatory compliance.",
+          "features": [
+            "Design activity development",
+            "Development of analysis and calculation methodologies",
+            "Budget and margin development and management",
+            "Risk analysis",
+            "Reliability and failure analysis (including FMECA)",
+            "Cost analysis",
+            "Performance analysis",
+            "Development and qualification plan preparation",
+            "System and equipment specification development",
+            "Test specification development",
+            "Support for technical documentation preparation",
+            "Technical support for design reviews",
+            "Feasibility studies for new products and services",
+            "Technical follow-up on behalf of clients"
+          ]
+        }
+      },
+      {
+        "id": "management-organizational-support",
+        "title": "Management & Organizational Support",
+        "shortDescription": "Program Management, organizational optimization, and quality procedures for operational excellence.",
+        "content": {
+          "subtitle": "Organization and operational management",
+          "description": "We support companies in defining and implementing efficient management processes, from strategic planning to quality management. Our approach ensures optimal organization, regulatory compliance, and continuous improvement.",
+          "features": [
+            "Development of management and quality procedures",
+            "Development of efficiency evaluation methodologies",
+            "Organizational analysis",
+            "Program management support",
+            "Contract development support",
+            "Planning support and management",
+            "Organization of design reviews",
+            "Design of specialized teams for objective achievement",
+            "Programmatic follow-up of subcontractors",
+            "Independent review activities",
+            "Support for external interface management",
+            "Participation in committees and boards on behalf of clients",
+            "Support for procurement management",
+            "Support for documentation management"
+          ]
+        }
+      },
+      {
+        "id": "commercial-marketing-support",
+        "title": "Commercial & Marketing Support",
+        "shortDescription": "Market analysis, business development, and sales strategies for business growth.",
+        "content": {
+          "subtitle": "Commercial and strategic development",
+          "description": "We support companies in commercial growth through in-depth market analysis, development of strategic partnerships, and access to international tenders. We develop targeted business plans and marketing strategies to effectively position companies in civil, military, and dual-use markets.",
+          "features": [
+            "Monitoring of national and international calls for tenders and requests for proposals (RFPs)",
+            "Development of competitive bids for international tenders",
+            "Strategic plan development",
+            "Marketing plan development and implementation support",
+            "Definition and management of marketing and communication budgets",
+            "Management and coordination of advertising and communication activities",
+            "Support for client relations",
+            "Management and development of commercial partnership agreements",
+            "Business plan development",
+            "Development of mathematical business models",
+            "Make-or-buy analysis",
+            "Analysis of technology spin-offs and spin-ins",
+            "Market analysis",
+            "Implementation of customer loyalty programs",
+            "Representation at external events on behalf of clients",
+            "Support for interfacing with national entities and agencies"
+          ]
+        }
+      },
+      {
+        "id": "training-support",
+        "title": "Training Support",
+        "shortDescription": "Specialized training and skills development for technical and management teams in the aerospace sector.",
+        "content": {
+          "subtitle": "Skills development and training",
+          "description": "We provide specialized training activities to develop technical, management, and regulatory skills in the aerospace sector. Our training programs are designed to update teams on the latest technologies, regulations, and best practices in the industry.",
+          "features": [
+            "Development of targeted training plans based on specific client needs",
+            "Support for delivery of training activities included in acquired contracts",
+            "Training needs analysis",
+            "Development and delivery of onboarding and induction training",
+            "Development of internal vision dissemination plans",
+            "Development and delivery of basic training for teams dedicated to specific objectives",
+            "Monitoring and evaluation of external training opportunities",
+            "Identification of cost recovery options for training activities"
+          ]
+        }
+      }
+    ],
+    "detail": {
+      "backToServices": "Back to Services",
+      "detailsTitle": "Service Details",
+      "ctaTitle": "Want to know more?",
+      "ctaDescription": "Contact us to discuss how we can support your company",
+      "ctaButton": "Contact Us"
     }
   },
   "team": {
     "title": "The Team",
     "subtitle": "Professionals with specialist expertise in the aerospace sector",
+    "downloadButton": "Download CV (PDF)",
     "mauro": {
       "name": "Eng. Mauro Balduccini",
-      "role": "Founder & Senior Consultant",
-      "description": "Over 35 years of specialist experience in the Aerospace and Defense sector. Technical expertise, contract management and tailored approach (Ad Hoc) for custom solutions."
+      "role": "Founder and Sole Administrator",
+      "description": "Over 35 years of specialist experience in the Aerospace and Defense sector. Technical expertise, contract management, and tailored approach (Ad Hoc) for custom solutions.",
+      "personal_data": {
+        "birth": "Rome, March 21, 1953",
+        "family": "Married, two children and two grandchildren",
+        "education": "Degree in Nuclear Engineering (110/110) from La Sapienza University, Rome (1977)",
+        "membership": "Registered with the Order of Engineers of Rome and Milan"
+      },
+      "cv_pdf_label": "Download Full CV PDF",
+      "sections": {
+        "experience": "Professional Experience",
+        "academic": "Teaching & Academic Activity",
+        "highlights": "Appointments & Honors"
+      },
+      "full_timeline": [
+        {
+          "period": "2025",
+          "title": "Awards and Strategic Programs",
+          "points": [
+            "Awarded the prestigious Luigi Broglio 2025 Prize.",
+            "Successful completion of SIMONA program (Italian System for Orbital Deployment via Ship - phases 1+2+3).",
+            "Development of proposal for phases 2+3 of PNRM MIUS program (Hybrid Upper Stage Engine).",
+            "Development of SUBSATCOM (PNS) and DEVO (Device for Extended Operational Life) proposals.",
+            "Research on Super-Cavitation applications and dedicated team training."
+          ]
+        },
+        {
+          "period": "2024",
+          "title": "Underwater Navigation and Communications",
+          "points": [
+            "Development of SICURO program (Italian Underwater Communication System with Optical Receiver) with the Aerospace Engineering School.",
+            "Support to Qascom for ASI tender on navigation systems for autonomous and automatic transport."
+          ]
+        },
+        {
+          "period": "2022 - 2023",
+          "title": "Advanced Propulsion and ASI Contracts",
+          "points": [
+            "Consulting on ramjet propulsion for organizations outside Europe.",
+            "Acquisition of PNRM 21 MIUS program (Italian Engine for Upper Stage).",
+            "Studies on innovative space system concepts for ASI FEB 23 Tender.",
+            "Follow-up on international cooperation contracts for supersonic airbreathing engines."
+          ]
+        },
+        {
+          "period": "2008 - 2015",
+          "title": "AVIO - Research and Development Office Manager",
+          "points": [
+            "Development of strategic plans for EU, ESA, EDA, MIUR and Italian Defense sectors.",
+            "Management of projects on space debris, deorbiting modules and low-cost small launchers.",
+            "Development of single-stage orbital injection systems (Gun Launch To Orbit) and air-breathing engines.",
+            "Analysis of 'spin-off' applications for space technologies in other industrial sectors."
+          ]
+        },
+        {
+          "period": "1982 - 2008",
+          "title": "Senior Industrial Experience (ELV, FIAT AVIO, Selenia)",
+          "points": [
+            "ELV: Technical and programmatic manager of VEGA contract for ESA up to System Design Review.",
+            "FIAT AVIO/BPD: Recruitment and management of system team for VEGA launcher development.",
+            "SELENIA SPAZIO: Platform manager for ITALSAT-2 (civil) and SICRAL-1 (military) satellites.",
+            "BPD: Design and realization of IRIS stage control system (Space Shuttle STS Mission)."
+          ]
+        }
+      ],
+      "academic_extended": {
+        "title": "Teaching Activity and Publications",
+        "items": [
+          "Course on satellite propulsion systems design at the Aerospace Engineering School (2006-2010).",
+          "Annual lectures at Master's programs on Satellite and Launcher Design since 2006.",
+          "Co-Author of the book: 'Space Program Management, Methods and Tools' (Springer).",
+          "Organization of the 1st Space Workshop for the Italian Navy Innovation Office."
+        ]
+      },
+      "highlights": [
+        "Luigi Broglio Award 2025",
+        "Advisor Italian Navy and Ministry of Transport",
+        "Member Eurospace Technical Advisory Board",
+        "Chairman Ariane 2010 Key Point for CNES"
+      ]
     },
     "livia": {
-      "name": "Livia Balduccini",
+      "name": "Dr. Livia Balduccini",
       "role": "Marketing Manager",
-      "description": "Management of communication strategy, marketing and brand positioning. Support for business development and coordination of promotional activities."
+      "description": "Management of communication strategy, marketing and brand positioning. Support for business development and coordination of promotional activities.",
+      "personal_data": {
+        "education": "Degree in Statistics for Business Management - La Sapienza (2004)",
+        "thesis": "Thesis: Start-ups in the Outlet sector; the McArthurGlen case",
+        "languages": "Italian (Native), English (Excellent - OISE Diplomas), French (School level)"
+      },
+      "skills": [
+        "Strategic Planning & Marketing Mix",
+        "Budget Management and Advertising Communication",
+        "Commercial Partnership Development & Loyalty",
+        "Statistical Analysis and Performance Evaluation",
+        "Event Organization and Retail PR"
+      ],
+      "experience_timeline": [
+        {
+          "period": "2015 - Today",
+          "title": "MaBa Consulting S.r.l.",
+          "role": "Marketing Manager",
+          "text": "Planning marketing projects for national and international product portfolios, budget management, and coordination of communication activities."
+        },
+        {
+          "period": "2012 - 2015",
+          "title": "I GIGLI Shopping Center (Larry Smith)",
+          "role": "Deputy Director",
+          "text": "Operational and strategic management of one of Italy's most important shopping centers. Launch of Gigli Pass and Gigli Gift Card."
+        },
+        {
+          "period": "2009 - 2011",
+          "title": "Soratte Outlet Shopping",
+          "role": "Marketing Manager",
+          "text": "Definition of critical issues, competitive analysis, and comprehensive management of launch budget and advertising campaigns."
+        },
+        {
+          "period": "2005 - 2009",
+          "title": "McArthurGlen Ltd",
+          "role": "Marketing Executive & Coordinator",
+          "text": "International growth path: marketing coordination for the openings of Barberino and Noventa di Piave (Veneto Designer Outlet)."
+        }
+      ],
+      "projects": [
+        {
+          "title": "Gigli Pass & Gift Card Launch",
+          "description": "Competitive analysis, online and offline media plan definition, and sales trend monitoring."
+        },
+        {
+          "title": "Veneto Designer Outlet Opening",
+          "description": "Pre-opening campaign management, positioning in the tourist market and launch event organization."
+        },
+        {
+          "title": "Barberino Outlet Opening",
+          "description": "Launch campaign coordination and development of territorial partnership agreements."
+        }
+      ],
+      "sections": {
+        "experience": "Professional Experience",
+        "skills": "Skills",
+        "projects": "Key Projects"
+      },
+      "cv_pdf_label": "Download Dr. Livia Balduccini Profile"
     }
+  },
+  "team_members": {
+    "mauro-balduccini": {
+      "bio_title": "Biography",
+      "bio_content": "Insert here the complete descriptive text for Eng. Mauro Balduccini. This content will be updated later with detailed information about his experience, skills and background in the aerospace sector.",
+      "cv_button_label": "Download CV",
+      "cv_file_path": "/docs/cv-mauro-en.pdf"
+    },
+    "livia-balduccini": {
+      "bio_title": "Biography",
+      "bio_content": "Insert here the complete descriptive text for Dr. Livia Balduccini. This content will be updated later with detailed information about her experience, skills and background in marketing and communication.",
+      "cv_button_label": "Download Company Profile",
+      "cv_file_path": "/docs/cv-livia-en.pdf"
+    },
+    "backToTeam": "Back to Team"
   },
   "metodo": {
     "title": "Process We Adopt",
@@ -153,6 +417,24 @@
       "emailValue": "info@mabaconsulting.com",
       "locationValue": "Milan, Italy"
     }
+  },
+  "contacts": {
+    "title": "Contacts",
+    "companyName": "MaBaconsulting S.r.l. a Socio Unico",
+    "legalSeat": "Registered Office",
+    "legalSeatAddress": "Via Giulia, 16 - 00186 Rome",
+    "admin": "CEO",
+    "adminName": "Eng. Mauro Balduccini",
+    "adminMobile": "+39 335 7431423",
+    "adminMail": "mbalduccini@mabaconsulting.it",
+    "marketing": "Marketing Manager",
+    "marketingName": "Dr. Livia Balduccini",
+    "marketingMobile": "+39 3494026614",
+    "marketingMail": "livia.balduccini@gmail.com",
+    "mobile": "Mobile",
+    "mail": "Mail",
+    "generalMail": "contacts@mabaconsulting.it",
+    "emailCopied": "Email copied!"
   },
   "footer": {
     "tagline": "Aerospace consulting excellence. We transform technical complexity into concrete value.",
@@ -187,6 +469,12 @@
         "webinars": "Webinars"
       }
     }
+  },
+  "seo": {
+    "siteName": "MaBaconsulting",
+    "defaultTitle": "MaBaconsulting | Aerospace & Defense Consulting",
+    "defaultDescription": "Specialist consulting in the Aerospace & Defense sector. Strategic engineering services, digital transformation and business development for companies in the sector. Over 35 years of experience.",
+    "keywords": "aerospace consulting, aerospace engineering, defense, aerospace systems, aerospace components, technical consulting, program management, aerospace business development"
   }
 }
 

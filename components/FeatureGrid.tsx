@@ -28,8 +28,8 @@ export default function FeatureGrid() {
   }
 
   return (
-    <section id="method" className="relative py-32 px-6 lg:px-8 border-t border-white/10 scroll-mt-20">
-      <div className="container mx-auto">
+    <section id="method" className="relative py-20 sm:py-24 md:py-32 px-4 sm:px-6 lg:px-8 border-t border-white/10 scroll-mt-20 overflow-x-hidden">
+      <div className="container mx-auto max-w-7xl">
         <div className="max-w-4xl mx-auto">
           {/* Text Content */}
           <motion.div
@@ -39,30 +39,34 @@ export default function FeatureGrid() {
             transition={{ duration: 0.6 }}
             className="text-center"
           >
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 tracking-tighter font-sans">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6 tracking-tighter font-sans">
               {dictionary.features.title.split(' ').slice(0, -1).join(' ')}{' '}
               <span className="gradient-text">{dictionary.features.title.split(' ').slice(-1)[0]}</span>
             </h2>
-            <p className="text-xl text-text-secondary leading-relaxed font-sans">
+            <p className="text-lg sm:text-xl text-text-secondary leading-relaxed font-sans px-2">
               {dictionary.features.subtitle}
             </p>
           </motion.div>
         </div>
 
-        {/* SVG Container - Metodo Ad Hoc Flowchart - Perfezione Geometrica e Wow Effect */}
+        {/* SVG Container - Metodo Ad Hoc Flowchart - Responsive con scroll controllato su mobile */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="max-w-6xl mx-auto mt-16"
+          className="w-full mt-8 sm:mt-12 md:mt-16"
         >
-          <svg
-            viewBox="0 0 1400 600"
-            xmlns="http://www.w3.org/2000/svg"
-            className="w-full h-auto"
-            style={{ fontFamily: 'inherit' }}
-          >
+          {/* Container con scroll orizzontale solo su mobile, centrato su desktop */}
+          <div className="overflow-x-auto overflow-y-visible -mx-4 sm:mx-0 pb-4 sm:pb-0">
+            <div className="min-w-[800px] sm:min-w-0 mx-auto max-w-6xl">
+              <svg
+                viewBox="0 0 1400 600"
+                xmlns="http://www.w3.org/2000/svg"
+                className="w-full h-auto min-h-[300px] sm:min-h-[400px] md:min-h-[500px]"
+                preserveAspectRatio="xMidYMid meet"
+                style={{ fontFamily: 'inherit' }}
+              >
             <defs>
               <linearGradient id="flow-grad" x1="0%" y1="0%" x2="100%" y2="0%">
                 <stop offset="0%" style={{ stopColor: '#0070FF', stopOpacity: 1 }} />
@@ -108,6 +112,12 @@ export default function FeatureGrid() {
                     text-transform: uppercase;
                     letter-spacing: 0.15em;
                   }
+                  @media (max-width: 640px) {
+                    .text-font {
+                      font-size: 10px !important;
+                      letter-spacing: 0.1em;
+                    }
+                  }
                   .box-rect {
                     fill: rgba(0, 112, 255, 0.05);
                     stroke-width: 1.2;
@@ -134,7 +144,7 @@ export default function FeatureGrid() {
                 y="94"
                 textAnchor="middle"
                 className="text-font"
-                fontSize="26"
+                fontSize="24"
                 fill="white"
               >
                 {dictionary.metodo.cliente}
@@ -191,7 +201,7 @@ export default function FeatureGrid() {
             </g>
 
             {/* Box Processo - Simmetria Perfetta con Spaziatura Uniforme */}
-            <g fontSize="14" fill="white" textAnchor="middle" className="text-font">
+            <g fontSize="13" fill="white" textAnchor="middle" className="text-font">
               {/* Box 1: ANALISI ESIGENZA - Centro X: 180 */}
               <g transform="translate(80, 350)">
                 <rect
@@ -271,11 +281,12 @@ export default function FeatureGrid() {
             </g>
 
             {/* Connessioni Orizzontali - Frecce Animate con Wow Effect (60px costanti) */}
-            <g>
+            <g fill="none">
               {/* Box 1 → Box 2 */}
               <path
                 d="M280 400 H340"
                 stroke="#0070FF"
+                strokeWidth="3"
                 markerEnd="url(#head-blue)"
                 className="wow-arrow"
               />
@@ -283,25 +294,32 @@ export default function FeatureGrid() {
               <path
                 d="M540 400 H600"
                 stroke="#0070FF"
+                strokeWidth="3"
                 markerEnd="url(#head-blue)"
                 className="wow-arrow"
               />
-              {/* Box 3 → Box 4 (Punto Critico) */}
+              {/* Box 3 → Box 4 (Punto Critico - Tratteggiata Animata) */}
               <path
                 d="M800 400 H860"
-                stroke="url(#flow-grad)"
-                markerEnd="url(#head-cyan)"
+                stroke="#0070FF"
+                strokeWidth="3"
+                strokeDasharray="10, 6"
+                fill="none"
+                markerEnd="url(#head-blue)"
                 className="wow-arrow"
               />
               {/* Box 4 → Box 5 */}
               <path
                 d="M1060 400 H1120"
                 stroke="#00D9FF"
+                strokeWidth="3"
                 markerEnd="url(#head-cyan)"
                 className="wow-arrow"
               />
             </g>
-          </svg>
+              </svg>
+            </div>
+          </div>
         </motion.div>
       </div>
     </section>
