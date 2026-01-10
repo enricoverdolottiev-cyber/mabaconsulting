@@ -473,6 +473,195 @@
       }
     }
   },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated:",
+    "introduction": "This Privacy Policy describes how MaBa Consulting S.r.l. a Socio Unico collects, uses, and protects personal data of users who visit our website, in accordance with the General Data Protection Regulation (GDPR - EU Regulation 2016/679).",
+    "controller": {
+      "title": "Data Controller",
+      "content": "The Data Controller is:",
+      "company": "MaBa Consulting S.r.l. a Socio Unico",
+      "address": "Via Giulia, 16 - 00186 Rome, Italy",
+      "vat": "VAT and Fiscal Code 13362851001",
+      "registry": "Registered at the Rome Chamber of Commerce nr. 1441561",
+      "contact": "For any privacy-related requests, you can contact the Data Controller at:",
+      "email": "info@mabaconsulting.com"
+    },
+    "dataTypes": {
+      "title": "Types of Data Collected",
+      "navigation": {
+        "title": "Navigation Data",
+        "content": "During website navigation, some technical data necessary for the website's operation are automatically collected. These include: IP address, type of browser used, operating system, pages visited, date and time of access."
+      },
+      "contact": {
+        "title": "Voluntarily Provided Data",
+        "content": "Users may voluntarily provide personal data by filling out the contact form on the website. Such data includes: name, surname, email address, and message. Providing this data is optional but necessary to respond to user requests."
+      }
+    },
+    "purpose": {
+      "title": "Purpose of Processing",
+      "response": {
+        "title": "Response to Contact Requests",
+        "content": "Data provided through the contact form is used exclusively to respond to requests and communications sent by users."
+      },
+      "legal": {
+        "title": "Compliance with Legal Obligations",
+        "content": "Data processing may be carried out to fulfill obligations under laws, regulations, or European Union regulations."
+      },
+      "navigation": {
+        "title": "Website Functionality",
+        "content": "Navigation data is collected to ensure proper website operation and improve the browsing experience."
+      }
+    },
+    "legalBasis": {
+      "title": "Legal Basis for Processing",
+      "content": "The processing of personal data is based on:",
+      "consent": "Consent of the data subject (for data voluntarily provided through the contact form)",
+      "legitimate": "Legitimate interest of the Controller (for navigation data necessary for website operation)",
+      "legal": "Compliance with legal obligations"
+    },
+    "retention": {
+      "title": "Data Retention Period",
+      "content": "Personal data is retained only for the time strictly necessary for the purposes for which it was collected. Data provided through the contact form is retained for the time necessary to manage and respond to the request, unless legal obligations require longer retention periods. Navigation data is retained for a maximum period of 12 months."
+    },
+    "rights": {
+      "title": "Data Subject Rights",
+      "content": "Under the GDPR, data subjects have the right to:",
+      "access": "Obtain confirmation of the existence of personal data concerning them and access such data",
+      "rectification": "Request rectification of inaccurate personal data",
+      "erasure": "Request erasure of personal data (right to be forgotten)",
+      "restriction": "Request restriction of processing",
+      "portability": "Request data portability",
+      "objection": "Object to data processing",
+      "withdraw": "Withdraw consent at any time, without affecting the lawfulness of processing based on consent before withdrawal",
+      "complaint": "Lodge a complaint with the Data Protection Authority (www.garanteprivacy.it)",
+      "contact": "To exercise your rights, you can contact the Data Controller at:"
+    },
+    "security": {
+      "title": "Data Security",
+      "content": "MaBa Consulting S.r.l. a Socio Unico adopts appropriate technical and organizational measures to protect personal data from unauthorized access, loss, destruction, or alteration. However, no data transmission or storage system is 100% completely secure."
+    },
+    "changes": {
+      "title": "Privacy Policy Changes",
+      "content": "The Data Controller reserves the right to modify this Privacy Policy at any time. Changes will be published on this page with the indication of the last update date. We recommend consulting this page periodically."
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated:",
+    "introduction": "These Terms of Service govern access to and use of the website of MaBa Consulting S.r.l. a Socio Unico. Accessing and browsing the website implies full and unconditional acceptance of these Terms of Service.",
+    "acceptance": {
+      "title": "Acceptance of Terms",
+      "content": "By accessing and using this website, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any part of these terms, you are prohibited from using or accessing this website."
+    },
+    "services": {
+      "title": "Description of Services",
+      "content": "MaBa Consulting S.r.l. a Socio Unico provides specialized consulting services in the Aerospace and Defense sector, including but not limited to:",
+      "list": [
+        "Technical and engineering consulting for aerospace systems and components",
+        "Management and organizational support for complex programs",
+        "Commercial development and marketing in the aerospace sector",
+        "Specialized training in the aerospace and defense sector",
+        "Market analysis and business development",
+        "Program management and project coordination"
+      ],
+      "note": "Services are provided according to the specifications agreed upon with each client and in compliance with the signed contractual agreements."
+    },
+    "intellectualProperty": {
+      "title": "Intellectual Property",
+      "content": "All content on this website, including but not limited to text, graphics, logos, icons, images, audio clips, digital downloads, data compilations, and software, is the property of MaBa Consulting S.r.l. a Socio Unico or its content suppliers and is protected by Italian and international copyright and intellectual property laws.",
+      "usage": "Any reproduction, distribution, modification, transmission, reuse, publication, or use of the content of this website without prior written authorization from MaBa Consulting S.r.l. a Socio Unico is prohibited."
+    },
+    "liability": {
+      "title": "Limitation of Liability",
+      "content": "The information contained on this website is provided 'as is' without warranties of any kind, either express or implied. MaBa Consulting S.r.l. a Socio Unico does not warrant the accuracy, completeness, or usefulness of any information on the website.",
+      "disclaimer": "MaBa Consulting S.r.l. a Socio Unico shall not be liable for any direct, indirect, incidental, special, or consequential damages arising from the use or inability to use this website or its content, including but not limited to loss of data, loss of profits, or business interruption.",
+      "accuracy": "Although MaBa Consulting S.r.l. a Socio Unico strives to keep the information updated and accurate, it does not guarantee that the website is error-free or that all information is always up to date."
+    },
+    "governingLaw": {
+      "title": "Governing Law",
+      "content": "These Terms of Service are governed by and construed in accordance with Italian law, without regard to conflict of law principles.",
+      "jurisdiction": "For any dispute arising from or relating to these Terms of Service or the use of this website, the parties agree to submit to the exclusive jurisdiction of the courts of Rome, Italy."
+    },
+    "changes": {
+      "title": "Changes to Terms",
+      "content": "MaBa Consulting S.r.l. a Socio Unico reserves the right to modify these Terms of Service at any time without notice. Changes will take effect immediately upon publication on the website. It is the user's responsibility to periodically consult this page to be informed of any changes. Continued use of the website after publication of changes constitutes acceptance of such changes."
+    },
+    "contact": {
+      "title": "Contact",
+      "content": "For any questions or requests regarding these Terms of Service, you may contact:",
+      "company": "MaBa Consulting S.r.l. a Socio Unico",
+      "address": "Via Giulia, 16 - 00186 Rome, Italy",
+      "email": "info@mabaconsulting.com"
+    }
+  },
+  "cookies": {
+    "title": "Cookie Policy",
+    "lastUpdated": "Last updated:",
+    "introduction": "This Cookie Policy describes how MaBa Consulting S.r.l. a Socio Unico uses cookies and similar technologies on its website. By using the website, you accept the use of cookies in accordance with this policy and European privacy legislation (GDPR and ePrivacy Directive).",
+    "whatAreCookies": {
+      "title": "What are Cookies",
+      "content": "Cookies are small text files that are stored on the user's device (computer, tablet, smartphone) when visiting a website. Cookies allow the website to remember user preferences and improve the browsing experience. Most browsers automatically accept cookies, but it is possible to modify browser settings to reject them."
+    },
+    "types": {
+      "title": "Types of Cookies Used",
+      "technical": {
+        "title": "Technical Cookies (Necessary)",
+        "content": "These cookies are essential for the website's operation and cannot be disabled. They are used exclusively for:",
+        "list": [
+          "Storing the language preference selected by the user (Italian/English)",
+          "Ensuring the correct functioning of basic website features",
+          "Maintaining security during navigation"
+        ],
+        "note": "These cookies do not collect information that personally identifies the user and are strictly necessary to provide the requested service."
+      },
+      "analytical": {
+        "title": "Analytical Cookies (Optional)",
+        "content": "The website may use anonymized analytical cookies to collect aggregated information on how users use the site. This data is used exclusively for:",
+        "list": [
+          "Analyzing website usage trends",
+          "Improving website performance and structure",
+          "Understanding which sections are most visited"
+        ],
+        "note": "The analytical cookies used are configured to be anonymized and do not allow personal identification of users. Such data is aggregated and used only for statistical purposes."
+      },
+      "profiling": {
+        "title": "Profiling Cookies",
+        "content": "MaBa Consulting S.r.l. a Socio Unico does NOT use profiling cookies for advertising purposes or to create user profiles. The website is oriented toward providing professional information and does not require personalized tracking for marketing purposes."
+      }
+    },
+    "consent": {
+      "title": "Consent Management",
+      "content": "For technical cookies, consent is not required as they are strictly necessary for the website's operation. For optional analytical cookies, if present, consent can be managed through browser settings or any consent banners present on the website.",
+      "withdraw": "You can revoke or modify your consent at any time by changing your browser settings or by contacting MaBa Consulting S.r.l. a Socio Unico at the email address indicated in the Contact section."
+    },
+    "disable": {
+      "title": "How to Disable Cookies",
+      "content": "You can disable or delete cookies by modifying your browser settings. However, please note that disabling technical cookies may compromise some website functionalities, such as storing language preferences.",
+      "browsers": {
+        "title": "Instructions for main browsers:",
+        "chrome": "Chrome: Settings > Privacy and security > Cookies and other site data",
+        "firefox": "Firefox: Options > Privacy & Security > Cookies and Site Data",
+        "safari": "Safari: Preferences > Privacy > Cookies and website data",
+        "edge": "Microsoft Edge: Settings > Cookies and site permissions > Cookies and site data",
+        "note": "For detailed instructions specific to your browser, consult the official documentation of your browser."
+      }
+    },
+    "thirdParty": {
+      "title": "Third-Party Cookies",
+      "content": "Currently, the MaBa Consulting S.r.l. a Socio Unico website does not use third-party cookies for advertising or tracking purposes. Should third-party services that use cookies be integrated in the future, this policy will be updated accordingly and users will be informed."
+    },
+    "updates": {
+      "title": "Cookie Policy Updates",
+      "content": "MaBa Consulting S.r.l. a Socio Unico reserves the right to modify this Cookie Policy at any time to reflect any changes in cookie usage or applicable regulations. Changes will be published on this page with the indication of the last update date. We recommend consulting this page periodically."
+    },
+    "contact": {
+      "title": "Contact",
+      "content": "For any questions or requests regarding cookie usage, you may contact:",
+      "company": "MaBa Consulting S.r.l. a Socio Unico",
+      "email": "info@mabaconsulting.com"
+    }
+  },
   "seo": {
     "siteName": "MaBa Consulting",
     "defaultTitle": "MaBa Consulting | Aerospace & Defense Consulting",

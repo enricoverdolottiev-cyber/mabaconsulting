@@ -473,6 +473,195 @@
       }
     }
   },
+  "privacy": {
+    "title": "Informativa sulla Privacy",
+    "lastUpdated": "Ultimo aggiornamento:",
+    "introduction": "La presente Informativa sulla Privacy descrive le modalità di raccolta, utilizzo e protezione dei dati personali degli utenti che visitano il sito web di MaBa Consulting S.r.l. a Socio Unico, in conformità al Regolamento Generale sulla Protezione dei Dati (GDPR - Regolamento UE 2016/679).",
+    "controller": {
+      "title": "Titolare del Trattamento",
+      "content": "Il Titolare del trattamento dei dati personali è:",
+      "company": "MaBa Consulting S.r.l. a Socio Unico",
+      "address": "Via Giulia, 16 - 00186 Roma, Italia",
+      "vat": "P.IVA e Cod.Fisc. 13362851001",
+      "registry": "Iscritta al registro delle imprese di Roma nr. 1441561",
+      "contact": "Per qualsiasi richiesta relativa alla privacy, è possibile contattare il Titolare all'indirizzo email:",
+      "email": "info@mabaconsulting.com"
+    },
+    "dataTypes": {
+      "title": "Tipi di Dati Raccolti",
+      "navigation": {
+        "title": "Dati di Navigazione",
+        "content": "Durante la navigazione del sito, vengono raccolti automaticamente alcuni dati tecnici necessari per il funzionamento del sito stesso. Tra questi: indirizzo IP, tipo di browser utilizzato, sistema operativo, pagine visitate, data e ora di accesso."
+      },
+      "contact": {
+        "title": "Dati forniti volontariamente",
+        "content": "Gli utenti possono fornire volontariamente dati personali compilando il modulo di contatto presente sul sito. Tali dati includono: nome, cognome, indirizzo email e messaggio. Il conferimento di questi dati è facoltativo ma necessario per poter rispondere alle richieste degli utenti."
+      }
+    },
+    "purpose": {
+      "title": "Finalità del Trattamento",
+      "response": {
+        "title": "Risposta a richieste di contatto",
+        "content": "I dati forniti tramite il modulo di contatto vengono utilizzati esclusivamente per rispondere alle richieste e alle comunicazioni inviate dagli utenti."
+      },
+      "legal": {
+        "title": "Adempimento obblighi di legge",
+        "content": "Il trattamento dei dati può essere effettuato per adempiere a obblighi previsti da leggi, regolamenti o normative comunitarie."
+      },
+      "navigation": {
+        "title": "Funzionamento del sito",
+        "content": "I dati di navigazione sono raccolti per garantire il corretto funzionamento del sito web e migliorare l'esperienza di navigazione."
+      }
+    },
+    "legalBasis": {
+      "title": "Base Giuridica del Trattamento",
+      "content": "Il trattamento dei dati personali si basa su:",
+      "consent": "Consenso dell'interessato (per i dati forniti volontariamente tramite modulo di contatto)",
+      "legitimate": "Interesse legittimo del Titolare (per i dati di navigazione necessari al funzionamento del sito)",
+      "legal": "Adempimento di obblighi di legge"
+    },
+    "retention": {
+      "title": "Periodo di Conservazione",
+      "content": "I dati personali vengono conservati per il tempo strettamente necessario alle finalità per le quali sono stati raccolti. I dati forniti tramite modulo di contatto vengono conservati per il tempo necessario a gestire e rispondere alla richiesta, salvo obblighi di legge che richiedano conservazioni più lunghe. I dati di navigazione vengono conservati per un periodo massimo di 12 mesi."
+    },
+    "rights": {
+      "title": "Diritti dell'Interessato",
+      "content": "Ai sensi del GDPR, gli interessati hanno diritto di:",
+      "access": "Ottenere la conferma dell'esistenza di dati personali che li riguardano e accedere ai medesimi",
+      "rectification": "Richiedere la rettifica dei dati personali inesatti",
+      "erasure": "Richiedere la cancellazione dei dati personali (diritto all'oblio)",
+      "restriction": "Richiedere la limitazione del trattamento",
+      "portability": "Richiedere la portabilità dei dati",
+      "objection": "Opporsi al trattamento dei dati",
+      "withdraw": "Revocare il consenso in qualsiasi momento, senza pregiudicare la liceità del trattamento basato sul consenso prestato prima della revoca",
+      "complaint": "Presentare un reclamo all'Autorità Garante per la protezione dei dati personali (www.garanteprivacy.it)",
+      "contact": "Per esercitare i propri diritti, è possibile contattare il Titolare all'indirizzo email:"
+    },
+    "security": {
+      "title": "Sicurezza dei Dati",
+      "content": "MaBa Consulting S.r.l. a Socio Unico adotta misure tecniche e organizzative appropriate per proteggere i dati personali da accesso non autorizzato, perdita, distruzione o alterazione. Tuttavia, nessun sistema di trasmissione o memorizzazione di dati è completamente sicuro al 100%."
+    },
+    "changes": {
+      "title": "Modifiche alla Privacy Policy",
+      "content": "Il Titolare si riserva il diritto di modificare la presente Informativa sulla Privacy in qualsiasi momento. Le modifiche saranno pubblicate su questa pagina con l'indicazione della data di ultimo aggiornamento. Si consiglia di consultare periodicamente questa pagina."
+    }
+  },
+  "terms": {
+    "title": "Termini di Servizio",
+    "lastUpdated": "Ultimo aggiornamento:",
+    "introduction": "I presenti Termini di Servizio regolano l'accesso e l'utilizzo del sito web di MaBa Consulting S.r.l. a Socio Unico. L'accesso e la navigazione del sito implicano l'accettazione integrale e senza riserve dei presenti Termini di Servizio.",
+    "acceptance": {
+      "title": "Accettazione dei Termini",
+      "content": "Accedendo e utilizzando questo sito web, l'utente accetta di essere vincolato dai presenti Termini di Servizio e da tutte le leggi e i regolamenti applicabili. Se non si è d'accordo con qualsiasi parte di questi termini, è vietato utilizzare o accedere a questo sito."
+    },
+    "services": {
+      "title": "Descrizione dei Servizi",
+      "content": "MaBa Consulting S.r.l. a Socio Unico fornisce servizi di consulenza specializzata nel settore Aerospaziale e della Difesa, inclusi ma non limitati a:",
+      "list": [
+        "Consulenza tecnica e ingegneristica per sistemi e componenti aerospaziali",
+        "Supporto gestionale e organizzativo per programmi complessi",
+        "Sviluppo commerciale e marketing nel settore aerospaziale",
+        "Formazione specializzata nel settore aerospaziale e difesa",
+        "Analisi di mercato e business development",
+        "Program management e coordinamento di progetti"
+      ],
+      "note": "I servizi sono forniti secondo le specifiche concordate con ciascun cliente e in conformità con gli accordi contrattuali sottoscritti."
+    },
+    "intellectualProperty": {
+      "title": "Proprietà Intellettuale",
+      "content": "Tutti i contenuti presenti su questo sito web, inclusi ma non limitati a testi, grafica, loghi, icone, immagini, clip audio, download digitali, compilazioni di dati e software, sono di proprietà di MaBa Consulting S.r.l. a Socio Unico o dei suoi fornitori di contenuti e sono protetti dalle leggi italiane e internazionali sul copyright e dalla proprietà intellettuale.",
+      "usage": "È vietata qualsiasi riproduzione, distribuzione, modifica, trasmissione, riutilizzo, pubblicazione o utilizzo del contenuto di questo sito web senza previa autorizzazione scritta di MaBa Consulting S.r.l. a Socio Unico."
+    },
+    "liability": {
+      "title": "Limitazione di Responsabilità",
+      "content": "Le informazioni contenute in questo sito web sono fornite 'così come sono' senza garanzie di alcun tipo, esplicite o implicite. MaBa Consulting S.r.l. a Socio Unico non garantisce l'accuratezza, completezza o utilità di qualsiasi informazione presente sul sito.",
+      "disclaimer": "MaBa Consulting S.r.l. a Socio Unico non sarà responsabile per eventuali danni diretti, indiretti, incidentali, speciali o consequenziali derivanti dall'uso o dall'impossibilità di utilizzare questo sito web o i suoi contenuti, inclusi ma non limitati a perdita di dati, perdita di profitti o interruzione dell'attività.",
+      "accuracy": "Sebbene MaBa Consulting S.r.l. a Socio Unico si impegni a mantenere le informazioni aggiornate e accurate, non garantisce che il sito sia privo di errori o che tutte le informazioni siano sempre aggiornate."
+    },
+    "governingLaw": {
+      "title": "Legge Applicabile e Foro Competente",
+      "content": "I presenti Termini di Servizio sono disciplinati e interpretati in conformità con le leggi italiane, senza riguardo ai principi di conflitto di leggi.",
+      "jurisdiction": "Per qualsiasi controversia derivante da o in relazione ai presenti Termini di Servizio o all'utilizzo di questo sito web, le parti concordano di sottoporre alla giurisdizione esclusiva dei tribunali di Roma, Italia."
+    },
+    "changes": {
+      "title": "Modifiche ai Termini",
+      "content": "MaBa Consulting S.r.l. a Socio Unico si riserva il diritto di modificare i presenti Termini di Servizio in qualsiasi momento senza preavviso. Le modifiche entreranno in vigore immediatamente dopo la pubblicazione sul sito web. È responsabilità dell'utente consultare periodicamente questa pagina per essere informato di eventuali modifiche. L'uso continuato del sito dopo la pubblicazione delle modifiche costituisce accettazione di tali modifiche."
+    },
+    "contact": {
+      "title": "Contatti",
+      "content": "Per qualsiasi domanda o richiesta relativa ai presenti Termini di Servizio, è possibile contattare:",
+      "company": "MaBa Consulting S.r.l. a Socio Unico",
+      "address": "Via Giulia, 16 - 00186 Roma, Italia",
+      "email": "info@mabaconsulting.com"
+    }
+  },
+  "cookies": {
+    "title": "Cookie Policy",
+    "lastUpdated": "Ultimo aggiornamento:",
+    "introduction": "La presente Cookie Policy descrive come MaBa Consulting S.r.l. a Socio Unico utilizza i cookie e tecnologie simili sul proprio sito web. Utilizzando il sito, l'utente accetta l'utilizzo dei cookie in conformità con la presente policy e con la normativa europea sulla privacy (GDPR e Direttiva ePrivacy).",
+    "whatAreCookies": {
+      "title": "Cosa sono i Cookie",
+      "content": "I cookie sono piccoli file di testo che vengono memorizzati sul dispositivo dell'utente (computer, tablet, smartphone) quando si visita un sito web. I cookie consentono al sito di ricordare le preferenze dell'utente e migliorare l'esperienza di navigazione. La maggior parte dei browser accetta automaticamente i cookie, ma è possibile modificarne le impostazioni per rifiutarli."
+    },
+    "types": {
+      "title": "Tipi di Cookie Utilizzati",
+      "technical": {
+        "title": "Cookie Tecnici (Necessari)",
+        "content": "Questi cookie sono essenziali per il funzionamento del sito web e non possono essere disattivati. Vengono utilizzati esclusivamente per:",
+        "list": [
+          "Memorizzare la preferenza della lingua selezionata dall'utente (italiano/inglese)",
+          "Garantire il corretto funzionamento delle funzionalità di base del sito",
+          "Mantenere la sicurezza durante la navigazione"
+        ],
+        "note": "Questi cookie non raccolgono informazioni che identificano personalmente l'utente e sono strettamente necessari per fornire il servizio richiesto."
+      },
+      "analytical": {
+        "title": "Cookie Analitici (Opzionali)",
+        "content": "Il sito può utilizzare cookie analitici anonimizzati per raccogliere informazioni aggregate sul modo in cui gli utenti utilizzano il sito. Questi dati vengono utilizzati esclusivamente per:",
+        "list": [
+          "Analizzare le tendenze di utilizzo del sito",
+          "Migliorare le prestazioni e la struttura del sito",
+          "Comprendere quali sezioni sono più frequentate"
+        ],
+        "note": "I cookie analitici utilizzati sono configurati per essere anonimizzati e non consentono l'identificazione personale degli utenti. Tali dati sono aggregati e utilizzati solo a fini statistici."
+      },
+      "profiling": {
+        "title": "Cookie di Profilazione",
+        "content": "MaBa Consulting S.r.l. a Socio Unico NON utilizza cookie di profilazione a scopi pubblicitari o per creare profili degli utenti. Il sito è orientato a fornire informazioni professionali e non richiede il tracciamento personalizzato per finalità di marketing."
+      }
+    },
+    "consent": {
+      "title": "Gestione del Consenso",
+      "content": "Per i cookie tecnici, il consenso non è richiesto in quanto sono strettamente necessari per il funzionamento del sito. Per i cookie analitici opzionali, se presenti, il consenso può essere gestito tramite le impostazioni del browser o eventuali banner di consenso presenti sul sito.",
+      "withdraw": "È possibile revocare o modificare il proprio consenso in qualsiasi momento modificando le impostazioni del browser o contattando MaBa Consulting S.r.l. a Socio Unico all'indirizzo email indicato nella sezione Contatti."
+    },
+    "disable": {
+      "title": "Come Disabilitare i Cookie",
+      "content": "È possibile disabilitare o eliminare i cookie modificando le impostazioni del browser. Tuttavia, si prega di notare che la disabilitazione dei cookie tecnici può compromettere alcune funzionalità del sito, come la memorizzazione della preferenza della lingua.",
+      "browsers": {
+        "title": "Istruzioni per i principali browser:",
+        "chrome": "Chrome: Impostazioni > Privacy e sicurezza > Cookie e altri dati dei siti",
+        "firefox": "Firefox: Opzioni > Privacy e sicurezza > Cookie e dati dei siti",
+        "safari": "Safari: Preferenze > Privacy > Cookie e dati dei siti web",
+        "edge": "Microsoft Edge: Impostazioni > Cookie e autorizzazioni sito > Cookie e dati dei siti",
+        "note": "Per istruzioni dettagliate specifiche del proprio browser, consultare la documentazione ufficiale del browser stesso."
+      }
+    },
+    "thirdParty": {
+      "title": "Cookie di Terze Parti",
+      "content": "Attualmente, il sito web di MaBa Consulting S.r.l. a Socio Unico non utilizza cookie di terze parti per scopi pubblicitari o di tracciamento. Qualora in futuro venissero integrati servizi di terze parti che utilizzano cookie, la presente policy verrà aggiornata di conseguenza e gli utenti saranno informati."
+    },
+    "updates": {
+      "title": "Aggiornamenti alla Cookie Policy",
+      "content": "MaBa Consulting S.r.l. a Socio Unico si riserva il diritto di modificare la presente Cookie Policy in qualsiasi momento per riflettere eventuali cambiamenti nell'utilizzo dei cookie o nelle normative applicabili. Le modifiche saranno pubblicate su questa pagina con l'indicazione della data di ultimo aggiornamento. Si consiglia di consultare periodicamente questa pagina."
+    },
+    "contact": {
+      "title": "Contatti",
+      "content": "Per qualsiasi domanda o richiesta relativa all'utilizzo dei cookie, è possibile contattare:",
+      "company": "MaBa Consulting S.r.l. a Socio Unico",
+      "email": "info@mabaconsulting.com"
+    }
+  },
   "seo": {
     "siteName": "MaBa Consulting",
     "defaultTitle": "MaBa Consulting | Consulenza Aerospazio e Difesa",
