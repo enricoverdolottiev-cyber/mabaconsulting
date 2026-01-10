@@ -77,9 +77,9 @@ export default function Footer() {
       { key: 'contact' as const, href: '#contact' },
     ],
     legal: [
-      { key: 'privacy' as const, href: '/privacy-policy' },
-      { key: 'terms' as const, href: '/terms-of-service' },
-      { key: 'cookies' as const, href: '/cookie-policy' },
+      { key: 'privacy' as const, href: `/${locale}/privacy-policy` },
+      { key: 'terms' as const, href: `/${locale}/terms-of-service` },
+      { key: 'cookies' as const, href: `/${locale}/cookie-policy` },
     ],
   }
 
@@ -149,13 +149,13 @@ export default function Footer() {
             </div>
             <div className="flex gap-6 flex-wrap justify-center">
               {footerLinks.legal.map((link) => (
-                <a
+                <Link
                   key={link.key}
                   href={link.href}
                   className="hover:text-white transition-colors duration-200"
                 >
                   {dictionary.footer[link.key]}
-                </a>
+                </Link>
               ))}
             </div>
           </div>
